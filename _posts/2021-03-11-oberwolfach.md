@@ -136,17 +136,17 @@ Systems Control Lett. 36, 2 (1999), 121--129.
 Ruiz-Balet, D., and Zuazua, E. Neural {ODE} control for classification, approximation and transport. In preparation (2021).
 
 [10]
-Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E.Large-time asymptotics in deep learning.
+Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E. Large-time asymptotics in deep learning.
 arXiv preprint arXiv:2008.02491 (2020).
 
 [11]
 Geshkovski, B. Control in moving interfaces and deep learning. PhD Thesis (2021).
 
 [12]
-Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E. Turnpike in {L}ipschitz-nonlinear optimal control. arXiv preprint arXiv:2011.11091 (2020).
+Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E. Turnpike in Lipschitz-nonlinear optimal control. arXiv preprint arXiv:2011.11091 (2020).
 
 [13]
-Esteve Yag{\"u}e, C., and Geshkovski, B. Sparse approximation in learning via neural {ODE}s.
+Esteve Yag{\"u}e, C., and Geshkovski, B. Sparse approximation in learning via neural ODEs.
 arXiv preprint arXiv:2102.13566 (2021).
 
 [14]
