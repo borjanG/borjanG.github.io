@@ -1,0 +1,113 @@
+---
+layout: post
+title: "Control and deep learning: some connections"
+tags: [math, cs]
+---
+
+*This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose.*
+
+It is superfluous to state the impact that deep learning has had on modern technology, as it powers many tools of modern society, ranging from web search to content filtering on social networks ([1]}). A key paradigm of deep learning is that of **supervised learning**, which addresses the problem of predicting from labeled data, consisting in approximating an unknown function $f(\cdot):\mathcal{X}\to\mathcal{Y}$ from $N$ known but possibly noisy data samples {$x_i,y_i$}$_{i=1}^N$ with $x_i\in\mathcal{X}\subset\mathbf{R}^d$ and $y_i\in\mathcal{Y}$. 
+We shall mostly concentrate on *classification tasks*, wherein $\mathcal{Y}=${$1,\ldots,m$}. 
+
+The workhorse behind the recent successes of deep learning are models called \emph{neural networks} for approximating $f_{\text{approx}}$ of the unknown function $f$; these are parametrized computational architectures which propagate each individual sample $x_i$ of the input data across a sequence of linear parametric operators and simple nonlinearities. 
+A canonical example of such models is the \textit{perceptron}	
+
+$$
+f_{\text{approx}}(x) = \sum_{j=1}^d w_{1,j}\sigma(w_{2,j} x +b_j)
+$$
+
+where $w_1\in\mathbf{R}^d$, $w_2\in\mathbf{R}^{d\times d}$ and $b\in\mathbf{R}^d$ are unknown parameters, with $\sigma:\mathbf{R}\to\mathbf{R}$ being a globally Lipschitz continuous function, defined element-wise, the so-called {\it activation function}. 
+	
+A by-now classical result, Cybenko's *universal approximation theorem* ([1]) ensures that the set of functions which can be represented by formula (1) is a dense subset of $C^0([-1,1]^d)$. This theory has since flourished, and universal approximation results have been shown for more compound models than (1) (see [2]).
+	
+In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called *residual neural networks* (ResNets, [3]) which may often be cast as schemes of the mould
+	
+$$
+\mathbf{x}_i^{k+1} = \mathbf{x}_i^k + w_1^k\sigma(w_2^k \mathbf{x}_i^k + b^k) &\text{ for } k \in \{0, \ldots, N_{\text{layers}}-1\}\\
+\mathbf{x}_i^0 = x_i
+$$
+
+for all $i \in [N]$, where $[N]:=${$1, \ldots, N$}, $w_1^k, w_2^k\in\mathbf{R}^{d\times d}$ and $N_{\text{layers}}\geq 1$ designates the number of layers referred to as the *depth*. 
+Due to the inherent dynamical nature of ResNets, several recent works have considered an associated continuous-time formulation, a trend started with the work [4]. 
+This is motivated by the simple observation that for $T>0$, (2) is  the forward Euler approximation of the neural ordinary differential equation (neural ODE)
+	
+$$
+\dot{\mathbf{x}}_i(t) = w_1(t)\sigma(w_2(t)\mathbf{x}_i(t)+b(t)) & \text{ for } t \in (0, T) \\
+\mathbf{x}_i(0) = x_i.
+$$
+
+It should be noted that the origins of continuous-time supervised learning go back to the 1980s -- in [5] back-propagation algorithms are connected to the adjoint method arising in optimal control (see also [6,7]).
+	
+One readily sees that the parameters $w_2, w_1, b$ in the neural ODE play the role of *controls*, and thus, the supervised learning problem may be seen as a compound and high-dimensional simultaneous control problem.
+	
+This is the viewpoint adopted by our group. And here we present some of our main findings.
+	
+We first analyze neural ODEs from a control theoretical perspective to obtain a fundamental understanding of the working mechanisms behind the processes of classification (more precisely, how the neural ODE flow manages separation of the different classes of data according to their labels). 
+	
+These objectives are tackled and achieved from the perspective of the simultaneous control of systems of neural ODEs. Namely, in [8] we prove that both separation and universal approximation (to arbitrary $L^\infty_{\text{loc}}$ or $L^2_{\text{loc}}$ functions) are valid properties for the controlled neural ODE flow by means of genuinely nonlinear and constructive proofs, allowing us to also estimate the complexity of the developed control strategies. 
+
+Indeed, the nonlinear nature of the activation function allows deforming half of the phase space while the other half remains invariant, a property that classical models in mechanics do not fulfill. This very property allows to build elementary controls inducing specific dynamics and transformations whose concatenation, along with properly chosen hyperplanes, allows achieving our goals in finitely many steps. We also present the counterparts in the context of the control of neural transport equations, establishing a link between optimal transport and deep neural networks.
+
+<center>
+<img src="../assets/posts/2/STRIPS.pdf" width="400" height="300">
+</center>
+
+In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as *training*.
+Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $\vec{y}_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
+	
+In [9, 10], we propose the training problem consisting in minimizing 
+	
+$$
+\frac{1}{N} \sum_{i=1}^N \text{loss}\left(P\mathbf{x}_i(T), y_i\right) + \int_0^T \|\mathbf{x}_i(t)-\overline{\mathbf{x}}_i\|^2 dt +  \|u\|_{H^1(0,T; \mathbf{R}^{d_u})}^2,
+$$
+
+where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function which, in classification tasks (for simplicity, $y_i\in\{0,1\}$), is usually $\text{loss}(x,y) := \|\frac{1}{1+e^{-x}}-y\|^2$ or $\text{loss}(x,y) = \log(1+\exp(-yx))$, and $\overline{\mathbf{x}}_i\in P^{-1}(\{y_i\})$. 
+
+<center>
+<img src="../assets/posts/2/trajectory0.pdf" width="400" height="300">
+<img src="../assets/posts/2/trajectory179.pdf" width="400" height="300">
+</center> 
+	
+As each time-step of a discretization to (3) may be seen to represent a different layer of the ResNet (2), the time horizon $T>0$ in (3) may serve as an indicator of the number of layers $N_{\text{layers}}$ in the discrete-time context (2). 
+A good understanding of the dynamics of the learning problem over longer time horizons would lead to potential rules for choosing the number of layers, and enlighten the possible generalization properties when the number of layers is large. 
+	
+In [9, 11] (see [12] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
+
+$$
+\frac{1}{N} \sum_{i=1}^N\text{loss}\left(P\mathbf{x}_{T,i}(t), \vec{y}_i\right) + \|\mathbf{x}_{T,i}(t)-\overline{\mathbf{x}}_i\|\leq C\,e^{-\mu t}
+$$
+
+and, moreover, 
+
+$$
+\|u_T(t)\| \leq\, Ce^{-\mu t}
+$$
+
+for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is a manifestation of the so-called \emph{turnpike property}, well-known in optimal control and economics ([14]).
+	
+<center>
+<img src="../assets/posts/2/norm_state.pdf" width="400" height="300">
+<img src="../assets/posts/2/generalization.pdf" width="400" height="300">
+</center> 
+    
+	
+**Outlook.** In the above presented works, we have studied a variety of supervised learning tasks from the continuous-time control theoretical perspective, allowing us to obtain fundamental understanding of the working mechanisms and properties that deep learning. We have, however, focused solely on supervised learning tasks, namely, wherein the dataset is labeled.
+	
+A major challenge which ought to be formulated and addressed in a more control theoretical framework is the topic of \emph{unsupervised learning}, wherein one only disposes of unlabeled data {$x_i$}. 
+	
+
+**Acknowledgments.** This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No.765579-ConFlex, the Alexander von Humboldt-Professorship program, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement NO. 694126-DyCon), the Transregio 154 Project “Mathematical Modelling, Simulation and Optimization Using the Example of Gas Networks” of the German DFG, grant MTM2017-92996-C2-1-R COSNET of MINECO (Spain) and by the Air Force Office of Scientific Research (AFOSR) under Award NO. FA9550-18-1-0242.
+
+
+## References.
+
+[1] LeCun, Y., Bengio, Y., and Hinton, G. (2015). Deep learning. Nature,
+521(7553):436–444.
+
+[2] He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep residual learning for image
+recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages
+770–778.
+
+<!-- [5] Léon Bottou, Frank E. Curtis and Jorge Nocedal: Optimization Methods for Large-Scale Machine Learning, Siam Review, 60(2):223-311, 2018.
+
+[8] Weinan, E. (2017). A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5(1):1–11. -->
