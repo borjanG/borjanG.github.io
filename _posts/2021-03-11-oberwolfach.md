@@ -10,7 +10,7 @@ It is superfluous to state the impact that deep learning has had on modern techn
 We shall mostly concentrate on *classification tasks*, wherein $\mathcal{Y}=${$1,\ldots,m$}. 
 
 The workhorse behind the recent successes of deep learning are models called *neural networks* for approximating $f_{\text{approx}}$ of the unknown function $f$; these are parametrized computational architectures which propagate each individual sample $x_i$ of the input data across a sequence of linear parametric operators and simple nonlinearities. 
-A canonical example of such models is the \textit{perceptron}	
+A canonical example of such models is the **perceptron**
 
 \begin{equation}
 f_{\text{approx}}(x) = \sum_{j=1}^d w_{1,j}\sigma(w_{2,j} x+b_j)
@@ -20,7 +20,7 @@ where $w_1\in\mathbf{R}^d$, $w_2\in\mathbf{R}^{d\times d}$ and $b\in\mathbf{R}^d
 	
 A by-now classical result, Cybenko's *universal approximation theorem* ([1]) ensures that the set of functions which can be represented by formula (1) is a dense subset of $C^0([-1,1]^d)$. This theory has since flourished, and universal approximation results have been shown for more compound models than (1) (see [2]).
 	
-In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called *residual neural networks* (ResNets, [3]) which may often be cast as schemes of the mould
+In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called **residual neural networks** (ResNets, [3]) which may often be cast as schemes of the mould
 	
 $$
 \begin{cases}
@@ -96,7 +96,7 @@ for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is 
 	
 **Outlook.** In the above presented works, we have studied a variety of supervised learning tasks from the continuous-time control theoretical perspective, allowing us to obtain fundamental understanding of the working mechanisms and properties that deep learning. We have, however, focused solely on supervised learning tasks, namely, wherein the dataset is labeled.
 	
-A major challenge which ought to be formulated and addressed in a more control theoretical framework is the topic of \emph{unsupervised learning}, wherein one only disposes of unlabeled data {$x_i$}. 
+A major challenge which ought to be formulated and addressed in a more control theoretical framework is the topic of *unsupervised learning*, wherein one only disposes of unlabeled data {$x_i$}. 
 	
 
 **Acknowledgments.** This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No.765579-ConFlex, the Alexander von Humboldt-Professorship program, the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement NO. 694126-DyCon), the Transregio 154 Project “Mathematical Modelling, Simulation and Optimization Using the Example of Gas Networks” of the German DFG, grant MTM2017-92996-C2-1-R COSNET of MINECO (Spain) and by the Air Force Office of Scientific Research (AFOSR) under Award NO. FA9550-18-1-0242.
