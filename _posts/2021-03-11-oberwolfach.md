@@ -4,7 +4,7 @@ title: "Control and deep learning: some connections"
 tags: [math, cs]
 ---
 
-*This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>*
+*This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>.*
 
 It is superfluous to state the impact that deep learning has had on modern technology, as it powers many tools of modern society, ranging from web search to content filtering on social networks ([1]). A key paradigm of deep learning is that of **supervised learning**, which addresses the problem of predicting from labeled data, consisting in approximating an unknown function $f(\cdot):\mathcal{X}\to\mathcal{Y}$ from $N$ known but possibly noisy data samples {$x_i,y_i$}$_{i=1}^N$ with $x_i\in\mathcal{X}\subset\mathbf{R}^d$ and $y_i\in\mathcal{Y}$. 
 We shall mostly concentrate on *classification tasks*, wherein $\mathcal{Y}=${$1,\ldots,m$}. 
@@ -22,12 +22,12 @@ A by-now classical result, Cybenko's *universal approximation theorem* ([1]) ens
 	
 In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called *residual neural networks* (ResNets, [3]) which may often be cast as schemes of the mould
 	
-\begin{equation}
+$$
 \begin{cases}
 \mathbf{x}_i^{k+1} = \mathbf{x}_i^k + w_1^k\sigma(w_2^k \mathbf{x}_i^k + b^k) &\text{ for } k \in \{0, \ldots, N_{\text{layers}}-1\}\\
 \mathbf{x}_i^0 = x_i
 \end{cases}
-\end{equation}
+$$
 
 for all $i \in [N]$, where $[N]:=${$1, \ldots, N$}, $w_1^k, w_2^k\in\mathbf{R}^{d\times d}$ and $N_{\text{layers}}\geq 1$ designates the number of layers referred to as the *depth*. 
 Due to the inherent dynamical nature of ResNets, several recent works have considered an associated continuous-time formulation, a trend started with the work [4]. 
@@ -56,10 +56,10 @@ Indeed, the nonlinear nature of the activation function allows deforming half of
 <img src="../assets/posts/2/STRIPS.pdf" width="350" height="280">
 </center>
 
-In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as *training*.
+In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as **training**.
 Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $y_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
 	
-In [10],[11], we propose the training problem consisting in minimizing 
+In [10], [11], we propose the training problem consisting in minimizing 
 	
 $$
 \frac{1}{N} \sum_{i=1}^N \text{loss}\left(P\mathbf{x}_i(T), y_i\right) + \int_0^T \|\mathbf{x}_i(t)-\overline{\mathbf{x}}_i\|^2 dt +  \|u\|_{H^1(0,T; \mathbf{R}^{d_u})}^2,
@@ -74,7 +74,7 @@ where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function 
 As each time-step of a discretization to (3) may be seen to represent a different layer of the ResNet (2), the time horizon $T>0$ in (3) may serve as an indicator of the number of layers $N_{\text{layers}}$ in the discrete-time context (2). 
 A good understanding of the dynamics of the learning problem over longer time horizons would lead to potential rules for choosing the number of layers, and enlighten the possible generalization properties when the number of layers is large. 
 	
-In [10],[12] (see [13] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
+In [10], [12] (see [13] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
 
 $$
 \frac{1}{N} \sum_{i=1}^N\text{loss}\left(P\mathbf{x}_{T,i}(t), y_i\right) + \|\mathbf{x}_{T,i}(t)-\overline{\mathbf{x}}_i\|\leq C\,e^{-\mu t}
@@ -86,7 +86,7 @@ $$
 \|u_T(t)\| \leq\, Ce^{-\mu t}
 $$
 
-for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is a manifestation of the so-called \emph{turnpike property}, well-known in optimal control and economics ([14]).
+for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is a manifestation of the so-called **turnpike property**, well-known in optimal control and economics ([14]).
 	
 <center>
 <img src="../assets/posts/2/norm_state.pdf" width="280" height="240">
@@ -150,5 +150,5 @@ Esteve Yag{\"u}e, C., and Geshkovski, B. Sparse approximation in learning via ne
 arXiv preprint arXiv:2102.13566 (2021).
 
 [14]
-Tr{\'e}lat, E., and Zuazua, E. The turnpike property in finite-dimensional nonlinear optimal
+Trélat, E., and Zuazua, E. The turnpike property in finite-dimensional nonlinear optimal
   control. J. Differ. Equ. 258, 1 (2015), 81--114.
