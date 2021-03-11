@@ -49,7 +49,7 @@ These objectives are tackled and achieved from the perspective of the simultaneo
 Indeed, the nonlinear nature of the activation function allows deforming half of the phase space while the other half remains invariant, a property that classical models in mechanics do not fulfill. This very property allows to build elementary controls inducing specific dynamics and transformations whose concatenation, along with properly chosen hyperplanes, allows achieving our goals in finitely many steps. We also present the counterparts in the context of the control of neural transport equations, establishing a link between optimal transport and deep neural networks.
 
 <center>
-<img src="../assets/posts/2/STRIPS.pdf" width="400" height="300">
+<img src="../assets/posts/2/STRIPS.pdf" width="350" height="280">
 </center>
 
 In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as *training*.
@@ -64,8 +64,8 @@ $$
 where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function which, in classification tasks (for simplicity, $y_i\in\{0,1\}$), is usually $\text{loss}(x,y) := \|\frac{1}{1+e^{-x}}-y\|^2$ or $\text{loss}(x,y) = \log(1+\exp(-yx))$, and $\overline{\mathbf{x}}_i\in P^{-1}(\{y_i\})$. 
 
 <center>
-<img src="../assets/posts/2/trajectory0.pdf" width="400" height="300">
-<img src="../assets/posts/2/trajectory179.pdf" width="400" height="300">
+<img src="../assets/posts/2/trajectory0.pdf" width="280" height="240">
+<img src="../assets/posts/2/trajectory179.pdf" width="280" height="240">
 </center> 
 	
 As each time-step of a discretization to (3) may be seen to represent a different layer of the ResNet (2), the time horizon $T>0$ in (3) may serve as an indicator of the number of layers $N_{\text{layers}}$ in the discrete-time context (2). 
@@ -86,8 +86,8 @@ $$
 for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is a manifestation of the so-called \emph{turnpike property}, well-known in optimal control and economics ([14]).
 	
 <center>
-<img src="../assets/posts/2/norm_state.pdf" width="400" height="300">
-<img src="../assets/posts/2/generalization.pdf" width="400" height="300">
+<img src="../assets/posts/2/norm_state.pdf" width="280" height="240">
+<img src="../assets/posts/2/generalization.pdf" width="280" height="240">
 </center> 
     
 	
