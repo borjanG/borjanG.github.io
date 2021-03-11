@@ -23,8 +23,10 @@ A by-now classical result, Cybenko's *universal approximation theorem* ([1]) ens
 In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called *residual neural networks* (ResNets, [3]) which may often be cast as schemes of the mould
 	
 $$
+\begin{cases}
 \mathbf{x}_i^{k+1} = \mathbf{x}_i^k + w_1^k\sigma(w_2^k \mathbf{x}_i^k + b^k) &\text{ for } k \in \{0, \ldots, N_{\text{layers}}-1\}\\
 \mathbf{x}_i^0 = x_i
+\end{cases}
 $$
 
 for all $i \in [N]$, where $[N]:=${$1, \ldots, N$}, $w_1^k, w_2^k\in\mathbf{R}^{d\times d}$ and $N_{\text{layers}}\geq 1$ designates the number of layers referred to as the *depth*. 
@@ -32,8 +34,10 @@ Due to the inherent dynamical nature of ResNets, several recent works have consi
 This is motivated by the simple observation that for $T>0$, (2) is  the forward Euler approximation of the neural ordinary differential equation (neural ODE)
 	
 $$
+\begin{cases}
 \dot{\mathbf{x}}_i(t) = w_1(t)\sigma(w_2(t)\mathbf{x}_i(t)+b(t)) & \text{ for } t \in (0, T) \\
 \mathbf{x}_i(0) = x_i.
+\end{cases}
 $$
 
 It should be noted that the origins of continuous-time supervised learning go back to the 1980s -- in [5] back-propagation algorithms are connected to the adjoint method arising in optimal control (see also [6,7]).
@@ -53,7 +57,7 @@ Indeed, the nonlinear nature of the activation function allows deforming half of
 </center>
 
 In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as *training*.
-Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $\vec{y}_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
+Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $y_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
 	
 In [9, 10], we propose the training problem consisting in minimizing 
 	
@@ -64,8 +68,7 @@ $$
 where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function which, in classification tasks (for simplicity, $y_i\in\{0,1\}$), is usually $\text{loss}(x,y) := \|\frac{1}{1+e^{-x}}-y\|^2$ or $\text{loss}(x,y) = \log(1+\exp(-yx))$, and $\overline{\mathbf{x}}_i\in P^{-1}(\{y_i\})$. 
 
 <center>
-<img src="../assets/posts/2/trajectory0.pdf" width="280" height="240">
-<img src="../assets/posts/2/trajectory179.pdf" width="280" height="240">
+<img src="../assets/posts/2/trajectory.mp4" width="400" height="300">
 </center> 
 	
 As each time-step of a discretization to (3) may be seen to represent a different layer of the ResNet (2), the time horizon $T>0$ in (3) may serve as an indicator of the number of layers $N_{\text{layers}}$ in the discrete-time context (2). 
@@ -74,7 +77,7 @@ A good understanding of the dynamics of the learning problem over longer time ho
 In [9, 11] (see [12] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
 
 $$
-\frac{1}{N} \sum_{i=1}^N\text{loss}\left(P\mathbf{x}_{T,i}(t), \vec{y}_i\right) + \|\mathbf{x}_{T,i}(t)-\overline{\mathbf{x}}_i\|\leq C\,e^{-\mu t}
+\frac{1}{N} \sum_{i=1}^N\text{loss}\left(P\mathbf{x}_{T,i}(t), y_i\right) + \|\mathbf{x}_{T,i}(t)-\overline{\mathbf{x}}_i\|\leq C\,e^{-\mu t}
 $$
 
 and, moreover, 
