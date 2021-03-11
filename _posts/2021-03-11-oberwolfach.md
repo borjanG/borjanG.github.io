@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Control and deep learning: some connections"
-tags: [math, cs]
+tags: [math]
 ---
 
 *This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>.*
@@ -90,7 +90,7 @@ for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is 
 	
 <center>
 <img src="../assets/posts/2/norm_state.pdf" width="280" height="240">
-<img src="../assets/posts/2/generalization.pdf" width="280" height="240">
+<img src="../assets/posts/2/generalization.pdf" width="300" height="240">
 </center> 
     
 	
