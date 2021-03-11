@@ -6,28 +6,28 @@ tags: [math, cs]
 
 *This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose.*
 
-It is superfluous to state the impact that deep learning has had on modern technology, as it powers many tools of modern society, ranging from web search to content filtering on social networks ([1]}). A key paradigm of deep learning is that of **supervised learning**, which addresses the problem of predicting from labeled data, consisting in approximating an unknown function $f(\cdot):\mathcal{X}\to\mathcal{Y}$ from $N$ known but possibly noisy data samples {$x_i,y_i$}$_{i=1}^N$ with $x_i\in\mathcal{X}\subset\mathbf{R}^d$ and $y_i\in\mathcal{Y}$. 
+It is superfluous to state the impact that deep learning has had on modern technology, as it powers many tools of modern society, ranging from web search to content filtering on social networks ([1]). A key paradigm of deep learning is that of **supervised learning**, which addresses the problem of predicting from labeled data, consisting in approximating an unknown function $f(\cdot):\mathcal{X}\to\mathcal{Y}$ from $N$ known but possibly noisy data samples {$x_i,y_i$}$_{i=1}^N$ with $x_i\in\mathcal{X}\subset\mathbf{R}^d$ and $y_i\in\mathcal{Y}$. 
 We shall mostly concentrate on *classification tasks*, wherein $\mathcal{Y}=${$1,\ldots,m$}. 
 
-The workhorse behind the recent successes of deep learning are models called \emph{neural networks} for approximating $f_{\text{approx}}$ of the unknown function $f$; these are parametrized computational architectures which propagate each individual sample $x_i$ of the input data across a sequence of linear parametric operators and simple nonlinearities. 
+The workhorse behind the recent successes of deep learning are models called *neural networks* for approximating $f_{\text{approx}}$ of the unknown function $f$; these are parametrized computational architectures which propagate each individual sample $x_i$ of the input data across a sequence of linear parametric operators and simple nonlinearities. 
 A canonical example of such models is the \textit{perceptron}	
 
-$$
-f_{\text{approx}}(x) = \sum_{j=1}^d w_{1,j}\sigma(w_{2,j} x +b_j)
-$$
+\begin{equation}
+f_{\text{approx}}(x) = \sum_{j=1}^d w_{1,j}\sigma(w_{2,j} x+b_j)
+\end{equation}
 
-where $w_1\in\mathbf{R}^d$, $w_2\in\mathbf{R}^{d\times d}$ and $b\in\mathbf{R}^d$ are unknown parameters, with $\sigma:\mathbf{R}\to\mathbf{R}$ being a globally Lipschitz continuous function, defined element-wise, the so-called {\it activation function}. 
+where $w_1\in\mathbf{R}^d$, $w_2\in\mathbf{R}^{d\times d}$ and $b\in\mathbf{R}^d$ are unknown parameters, with $\sigma:\mathbf{R}\to\mathbf{R}$ being a globally Lipschitz continuous function, defined element-wise, the so-called *activation function*. 
 	
 A by-now classical result, Cybenko's *universal approximation theorem* ([1]) ensures that the set of functions which can be represented by formula (1) is a dense subset of $C^0([-1,1]^d)$. This theory has since flourished, and universal approximation results have been shown for more compound models than (1) (see [2]).
 	
 In practice however, one looks to use models wherein the compositions are iterated over multiple layers, namely *deep neural networks*. A staple of such models are the so-called *residual neural networks* (ResNets, [3]) which may often be cast as schemes of the mould
 	
-$$
+\begin{equation}
 \begin{cases}
 \mathbf{x}_i^{k+1} = \mathbf{x}_i^k + w_1^k\sigma(w_2^k \mathbf{x}_i^k + b^k) &\text{ for } k \in \{0, \ldots, N_{\text{layers}}-1\}\\
 \mathbf{x}_i^0 = x_i
 \end{cases}
-$$
+\end{equation}
 
 for all $i \in [N]$, where $[N]:=${$1, \ldots, N$}, $w_1^k, w_2^k\in\mathbf{R}^{d\times d}$ and $N_{\text{layers}}\geq 1$ designates the number of layers referred to as the *depth*. 
 Due to the inherent dynamical nature of ResNets, several recent works have considered an associated continuous-time formulation, a trend started with the work [4]. 
@@ -59,7 +59,7 @@ Indeed, the nonlinear nature of the activation function allows deforming half of
 In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as *training*.
 Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $y_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
 	
-In [9, 10], we propose the training problem consisting in minimizing 
+In [10],[11], we propose the training problem consisting in minimizing 
 	
 $$
 \frac{1}{N} \sum_{i=1}^N \text{loss}\left(P\mathbf{x}_i(T), y_i\right) + \int_0^T \|\mathbf{x}_i(t)-\overline{\mathbf{x}}_i\|^2 dt +  \|u\|_{H^1(0,T; \mathbf{R}^{d_u})}^2,
@@ -74,7 +74,7 @@ where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function 
 As each time-step of a discretization to (3) may be seen to represent a different layer of the ResNet (2), the time horizon $T>0$ in (3) may serve as an indicator of the number of layers $N_{\text{layers}}$ in the discrete-time context (2). 
 A good understanding of the dynamics of the learning problem over longer time horizons would lead to potential rules for choosing the number of layers, and enlighten the possible generalization properties when the number of layers is large. 
 	
-In [9, 11] (see [12] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
+In [10],[12] (see [13] for the $L^1$--case), under controllability assumptions on the neural ODE (which are addressed in [9]), but without any smallness assumptions on the data, targets, or smoothness assumptions on the dynamics (we only assume $\sigma\in\text{Lip}(\mathbf{R})$), we conclude that the optimal controls $u_T=[w_{1,T}, w_{2,T}, b_T]$ and associated optimal trajectories $\mathbf{x}_T$ satisfy
 
 $$
 \frac{1}{N} \sum_{i=1}^N\text{loss}\left(P\mathbf{x}_{T,i}(t), y_i\right) + \|\mathbf{x}_{T,i}(t)-\overline{\mathbf{x}}_i\|\leq C\,e^{-\mu t}
@@ -107,10 +107,48 @@ A major challenge which ought to be formulated and addressed in a more control t
 [1] LeCun, Y., Bengio, Y., and Hinton, G. (2015). Deep learning. Nature,
 521(7553):436–444.
 
-[2] He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep residual learning for image
+[2]
+Cybenko, G., Approximation by superpositions of a sigmoidal function., Math. Control Signals Systems (1989), 303--314.
+
+[3]
+Pinkus, A., Approximation theory of the mlp model in neural networks.,Acta Numer. 8, 1 (1999), 143--195.
+
+[4] He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep residual learning for image
 recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages
 770–778.
 
-<!-- [5] Léon Bottou, Frank E. Curtis and Jorge Nocedal: Optimization Methods for Large-Scale Machine Learning, Siam Review, 60(2):223-311, 2018.
+[5]
+E, W., A proposal on machine learning via dynamical systems. Commun. Math. Stat. 5, 1 (2017), 1--11.
 
-[8] Weinan, E. (2017). A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5(1):1–11. -->
+[6]
+LeCun, Y., Touresky, D., Hinton, G., and Sejnowski, T. A theoretical framework for back-propagation. In Proceedings of the 1988 connectionist models summer school
+  (1988), vol.~1, CMU, Pittsburgh, Pa: Morgan Kaufmann, pp.~21--28.
+  
+[7]
+Sontag, E., and Sussmann, H. Complete controllability of continuous-time recurrent neural
+  networks. Systems Control Lett. 30, 4 (1997), 177--183.
+
+[8]
+Sontag, E.~D., and Qiao, Y. Further results on controllability of recurrent neural networks.
+Systems Control Lett. 36, 2 (1999), 121--129.
+
+[9]
+Ruiz-Balet, D., and Zuazua, E. Neural {ODE} control for classification, approximation and transport. In preparation (2021).
+
+[10]
+Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E.Large-time asymptotics in deep learning.
+arXiv preprint arXiv:2008.02491 (2020).
+
+[11]
+Geshkovski, B. Control in moving interfaces and deep learning. PhD Thesis (2021).
+
+[12]
+Esteve, C., Geshkovski, B., Pighin, D., and Zuazua, E. Turnpike in {L}ipschitz-nonlinear optimal control. arXiv preprint arXiv:2011.11091 (2020).
+
+[13]
+Esteve Yag{\"u}e, C., and Geshkovski, B. Sparse approximation in learning via neural {ODE}s.
+arXiv preprint arXiv:2102.13566 (2021).
+
+[14]
+Tr{\'e}lat, E., and Zuazua, E. The turnpike property in finite-dimensional nonlinear optimal
+  control. J. Differ. Equ. 258, 1 (2015), 81--114.
