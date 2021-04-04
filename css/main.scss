@@ -1,6 +1,4 @@
 ---
-
----
 // Customization Variables
 
 $accent: #3b5998;
@@ -29,6 +27,11 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+div {
+    word-wrap: break-word;
+    width: 100px;
+ }
 
 /* Code Styles */
 // pre {
