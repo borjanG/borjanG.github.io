@@ -28,11 +28,6 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-div {
-    word-wrap: break-word;
-    width: 100px;
- }
-
 /* Code Styles */
 // pre {
 //     background: #f4f4f4;
@@ -292,3 +287,7 @@ table {
     line-height: 1.1em;
     padding: 0;
     padding-bottom: 0; }
+
+div {
+    word-wrap: break-word;
+    width: 100px;}
