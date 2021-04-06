@@ -30,6 +30,12 @@ $$
 $$
 
 for all $i \in [N]$, where $[N]:=${$1, \ldots, N$}, $w_1^k, w_2^k\in\mathbf{R}^{d\times d}$ and $N_{\text{layers}}\geq 1$ designates the number of layers referred to as the *depth*. 
+In fact, I recently came accross a tweet stating that the original paper on ResNets ([3]) is the most cited paper (per Google Scholar) in all scientific disciplines of the 2010s. 
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2020&#39;s most cited paper across all scientific disciplines was (still) 2015&#39;s ResNet. <br><br>Paper: <a href="https://t.co/mGGX1OpseY">https://t.co/mGGX1OpseY</a> (v/MSFTResearch) <br><br>More: <a href="https://t.co/e3Va7P6Ea8">https://t.co/e3Va7P6Ea8</a> (<a href="https://twitter.com/TDataScience?ref_src=twsrc%5Etfw">@TDataScience</a>)<a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/BestOf2020?src=hash&amp;ref_src=twsrc%5Etfw">#BestOf2020</a><a href="https://twitter.com/hashtag/WednesdayWisdom?src=hash&amp;ref_src=twsrc%5Etfw">#WednesdayWisdom</a> <a href="https://t.co/fdAZPXABZV">pic.twitter.com/fdAZPXABZV</a></p>&mdash; MIT CSAIL (@MIT_CSAIL) <a href="https://twitter.com/MIT_CSAIL/status/1334192858635505665?ref_src=twsrc%5Etfw">December 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
 Due to the inherent dynamical nature of ResNets, several recent works have considered an associated continuous-time formulation, a trend started with the work [4]. 
 This is motivated by the simple observation that for $T>0$, (2) is  the forward Euler approximation of the neural ordinary differential equation (neural ODE)
 	
@@ -52,9 +58,6 @@ These objectives are tackled and achieved from the perspective of the simultaneo
 
 Indeed, the nonlinear nature of the activation function allows deforming half of the phase space while the other half remains invariant, a property that classical models in mechanics do not fulfill. This very property allows to build elementary controls inducing specific dynamics and transformations whose concatenation, along with properly chosen hyperplanes, allows achieving our goals in finitely many steps. We also present the counterparts in the context of the control of neural transport equations, establishing a link between optimal transport and deep neural networks.
 
-<center>
-<img src="../assets/posts/2/STRIPS.pdf" width="350" height="280">
-</center>
 
 In practical applications however, the time-dependent parameters/controls are found by minimizing some cost functional rather than explicitly, via a process commonly referred to as **training**.
 Due to the ODE reformulation of ResNets, the training process is nothing else than an optimal control problem which consists in finding optimal parameters steering all of the network outputs $P\mathbf{x}_i(T)$ as close as possible to the corresponding labels $y_i$, where $P:\mathbf{R}^d\to\mathbf{R}^m$ is a given affine and surjective map (e.g., a random matrix) which serves to match dimensions. 
