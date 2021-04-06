@@ -65,7 +65,7 @@ Due to the ODE reformulation of ResNets, the training process is nothing else th
 In [10], [11], we propose the training problem consisting in minimizing 
 	
 $$
-\frac{1}{N} \sum_{i=1}^N \text{loss}\left(P\mathbf{x}_i(T), y_i\right) + \int_0^T \|\mathbf{x}_i(t)-\overline{\mathbf{x}}_i\|^2 dt +  \|u\|_{H^1(0,T; \mathbf{R}^{d_u})}^2,
+\frac{1}{N} \sum_{i=1}^N \text{loss}\left(P\mathbf{x}_i(T), y_i\right) + \int_0^T \|\mathbf{x}_i(t)-\overline{\mathbf{x}}_i\|^2 dt +  \|u\|_{L^2(0,T; \mathbf{R}^{d_u})}^2,
 $$
 
 where $\text{loss}(\cdot,\cdot)$ is a given continuous and nonnegative function which, in classification tasks (for simplicity, $y_i\in\{0,1\}$), is usually $\text{loss}(x,y) := \|\frac{1}{1+e^{-x}}-y\|^2$ or $\text{loss}(x,y) = \log(1+\exp(-yx))$, and $\overline{\mathbf{x}}_i\in P^{-1}(\{y_i\})$. 
