@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Control and deep learning: some connections"
-tags: [math]
+tags: [math, ML]
 ---
 
 *This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>.*
