@@ -93,7 +93,7 @@ for some constant $C,\mu>0$ independent of $T$ and for all $t\in[0,T]$. This is 
 	
 <center>
 <img src="../assets/posts/2/norm_state.pdf" width="280" height="240">
-<img src="../assets/posts/2/generalization.pdf" width="300" height="240">
+<img src="../assets/posts/2/generalization.pdf" width="320" height="240">
 </center> 
     
 	
