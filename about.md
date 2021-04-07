@@ -31,7 +31,7 @@ My current research is centered on the interplay of deep learning and control th
 
 I obtained a BSc (2016, cum laude / mention Assez Bien) in Applied Mathematics and Computer Science, as well as an MSc (2018, summa cum laude / mention Très Bien) in Applied Mathematics, from the <a href="https://www.u-bordeaux.fr">University of Bordeaux</a>.
 
-My <mark>curriculum vitae</mark> can be found <a href="{{site.baseurl}}/{{site.cv}}">here</a>.
+<mark>My <b>curriculum vitae</b> can be found <a href="{{site.baseurl}}/{{site.cv}}">here</a>.</mark>
 
 <h3 id="contact">Contact</h3>
 
