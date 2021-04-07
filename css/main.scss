@@ -30,6 +30,11 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
 /* Code Styles */
 // pre {
 //     background: #f4f4f4;
