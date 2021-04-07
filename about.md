@@ -19,13 +19,13 @@ function unhover(element) {
 
 <!-- 
 <p style="width: 400px;"> -->
-<div style="width: 450px;">
+<div style="width: 475px;">
 I am a PhD student and <a href="https://www.conflex.org">Marie Sklodowska-Curie Fellow</a> at the <a href="http://www.uam.es/UAM/Home.htm?language=es">Universidad Autónoma de Madrid</a> since July 2018, under the supervision of <a href="http://paginaspersonales.deusto.es/enrique.zuazua/">Enrique Zuazua</a>. 
 I am scheduled to defend my PhD thesis in April 2021. 
 I am also affiliated with the <a href="https://cmc.deusto.eus">Chair of Computational Mathematics</a> at Fundación Deusto in Bilbao.
 </div>
 
-<p style="width: 450px;">
+<p style="width: 475px;">
 My current research is centered on the interplay of deep learning and control theory. I previosly conducted research on the control of free boundary problems.
 </p>
 
