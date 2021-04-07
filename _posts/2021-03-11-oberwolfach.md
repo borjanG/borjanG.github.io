@@ -4,7 +4,7 @@ title: "Control and deep learning: some connections"
 tags: [math, ML]
 ---
 
-*This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I beleive it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>.*
+*This note is an extended abstract for a talk given by my thesis advisor, Enrique Zuazua, during the workshop "Challenges in Optimization with Complex PDE-Systems", at Oberwolfach, in February 2021. I share it on this blog as I believe it can serve a dissemination purpose. The .pdf version may be found <a href="https://cmc.deusto.eus/control-and-deep-learning-some-connections/">here</a>.*
 
 It is superfluous to state the impact that deep learning has had on modern technology, as it powers many tools of modern society, ranging from web search to content filtering on social networks ([1]). A key paradigm of deep learning is that of **supervised learning**, which addresses the problem of predicting from labeled data, consisting in approximating an unknown function $f(\cdot):\mathcal{X}\to\mathcal{Y}$ from $N$ known but possibly noisy data samples {$x_i,y_i$}$_{i=1}^N$ with $x_i\in\mathcal{X}\subset\mathbf{R}^d$ and $y_i\in\mathcal{Y}$. 
 We shall focus on *classification tasks*, wherein $\mathcal{Y}=${$1,\ldots,m$}. 
