@@ -25,7 +25,7 @@ I am scheduled to defend my PhD thesis in April 2021.
 I am also affiliated with the <a href="https://cmc.deusto.eus">Chair of Computational Mathematics</a> at Fundación Deusto in Bilbao.
 </div>
 
-<p>
+<p style="width: 450px;">
 My current research is centered on the interplay of deep learning and control theory. I previosly conducted research on the control of partial differential equations with moving interfaces (free boundary problems).
 </p>
 
