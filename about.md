@@ -26,7 +26,7 @@ I am also affiliated with the <a href="https://cmc.deusto.eus">Chair of Computat
 </div>
 
 <p style="width: 450px;">
-My current research is centered on the interplay of deep learning and control theory. I previosly conducted research on the control of partial differential equations with moving interfaces (free boundary problems).
+My current research is centered on the interplay of deep learning and control theory. I previosly conducted research on the control of free boundary problems.
 </p>
 
 I obtained a BSc (2016, cum laude / mention Assez Bien) in Applied Mathematics and Computer Science, as well as an MSc (2018, summa cum laude / mention Très Bien) in Applied Mathematics, from the <a href="https://www.u-bordeaux.fr">University of Bordeaux</a>.
