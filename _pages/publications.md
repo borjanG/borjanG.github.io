@@ -20,7 +20,6 @@ nav_order: 2
         <td valign="top">&nbsp;&nbsp;15.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><a class="publink">Transformers in the guise of many-particle systems</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -30,7 +29,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Philippe Rigollet and Yihang Sun
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -39,7 +37,6 @@ nav_order: 2
         <td><a class="publink" href="">Constructive approximate transport maps with normalizing flows</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Antonio Alvarez-Lopez and Domènec Ruiz-Balet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -48,7 +45,6 @@ nav_order: 2
         <td><a class="publink" href="https://arxiv.org/abs/2411.04551">Measure-to-measure interpolation using Transformers</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Philippe Rigollet and Domènec Ruiz-Balet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprint, 2024
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -58,7 +54,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Hugo Koubbi, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprint, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/HugoKoubbi/2024-transformers-dotm">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -68,7 +63,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bulletin of the AMS, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers-rotf">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
         <tr>
@@ -77,7 +71,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeurIPS, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -87,7 +80,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Debayan Maity
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematical Models and Methods in Applied Sciences, 2023
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2022-stefan-control">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -97,7 +89,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acta Numerica, 2022
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -107,7 +98,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IEEE Transactions on Automatic Control, 2023
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/optimal.controller">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -117,7 +107,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Carlos Esteve
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systems & Control Letters, 2023
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/dynamical.systems">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -127,7 +116,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Carlos Esteve, Dario Pighin and Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nonlinearity, 2022
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/dynamical.systems">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -137,7 +125,6 @@ nav_order: 2
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Carlos Esteve, Dario Pighin and Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprint, 2021
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/dynamical.systems">github</a>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </td>
         </tr>
 
@@ -146,15 +133,14 @@ nav_order: 2
         <td><a class="publink" href="https://epubs.siam.org/doi/abs/10.1137/19M1285354">Controllability of one-dimensional viscous free boundary flows</a> 
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIAM Journal on Control and Optimization, 2021
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </tr>
 
         <tr>
         <td valign="top">&nbsp;&nbsp;1.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><a class="publink" href="https://hal.archives-ouvertes.fr/hal-02280993/">Null-controllability of perturbed porous medium gas flow</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESAIM Control, Optimisation and Calculus of Variations, 2020
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </tr>
+
         </table>
     
     <br>

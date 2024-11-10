@@ -25,5 +25,3 @@ I am interested in the interplay of partial differential equations and machine l
 <b>Contact</b>
 office: 15-25 317, Laboratoire Jacques-Louis Lions, 4 Place Jussieu, 75005 Paris
 email: borjan dot geshkovski at inria dot fr
-
-Photo credit: Fréderic Hecht
