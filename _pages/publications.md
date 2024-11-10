@@ -50,7 +50,7 @@ nav_order: 2
 
         <tr>
         <td valign="top">&nbsp;&nbsp;11.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><a class="publink" href="">Dynamic metastability in the self-attention model</a>
+        <td><a class="publink" href="https://arxiv.org/abs/2410.06833">Dynamic metastability in the self-attention model</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Hugo Koubbi, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprint, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/HugoKoubbi/2024-transformers-dotm">github</a>
@@ -59,7 +59,7 @@ nav_order: 2
 
         <tr>
         <td valign="top">&nbsp;&nbsp;10.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><a class="publink" href="assets/2312.10794.pdf">A mathematical perspective on Transformers</a>
+        <td><a class="publink" href="https://arxiv.org/abs/2312.10794">A mathematical perspective on Transformers</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bulletin of the AMS, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers-rotf">github</a>
@@ -67,7 +67,7 @@ nav_order: 2
         </tr>
         <tr>
         <td valign="top">&nbsp;&nbsp;9.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><a class="publink" href="assets/2305.05465.pdf">The emergence of clusters in self-attention dynamics</a>
+        <td><a class="publink" href="https://arxiv.org/abs/2305.05465">The emergence of clusters in self-attention dynamics</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeurIPS, 2024
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers">github</a>
@@ -130,7 +130,7 @@ nav_order: 2
 
         <tr>
         <td valign="top">&nbsp;&nbsp;2.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><a class="publink" href="https://epubs.siam.org/doi/abs/10.1137/19M1285354">Controllability of one-dimensional viscous free boundary flows</a> 
+        <td><a class="publink" href="https://hal.science/hal-02277740/">Controllability of one-dimensional viscous free boundary flows</a> 
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIAM Journal on Control and Optimization, 2021
         </td>
