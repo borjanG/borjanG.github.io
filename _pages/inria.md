@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /aaa seminar/
-title: aaa seminar
+permalink: /seminar/
+title: seminar
 description: 
 nav: true
 nav_order: 7
