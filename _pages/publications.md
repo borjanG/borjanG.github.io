@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <h1>papers</h1>
+  <img src="/assets/img/blackboard.jpg" alt="blackboard" style="max-width: 150px; height: auto;">
+</div>
+
 <div>
     <br>
     (Feel free to contact me for published versions.)
