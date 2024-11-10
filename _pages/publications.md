@@ -7,11 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-<div style="display: flex; justify-content: flex-end; align-items: center;">
-  <img src="/assets/img/blackboard.jpg" alt="blackboard" style="max-width: 220px; height: auto; margin-left: auto;">
-</div>
-
-<div>
+<div style="display: flex; align-items: flex-start;">
+  <!-- Left section for the content -->
+  <div style="flex: 1;">
     <br>
     (Feel free to contact me for published versions.)
     
@@ -185,5 +183,11 @@ nav_order: 2
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc Thesis 
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Université de Bordeaux 
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018
-    
+
+</div>
+
+  <!-- Right section for the image -->
+  <div style="max-width: 200px; margin-left: 20px;">
+    <img src="/assets/img/blackboard.jpg" alt="blackboard" style="width: 100%; height: auto;">
+  </div>
 </div>
