@@ -9,17 +9,18 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>15-25 317</p>
+    <p>4 Place Jussieu</p>
+    <p>75005 Paris</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a junior researcher at Inria, within the Laboratoire Jacques-Louis Lions at Sorbonne Université.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I was previously a postdoc at MIT under <a class="publink" href="https://math.mit.edu/~rigollet/">Philippe Rigollet</a> and <a class="publink" href="https://math.mit.edu/icg/">Laurent Demanet</a>.
+I got my Ph.D. from the Universidad Autónoma de Madrid in 2021. My adviser was <a class="publink" href="https://dcn.nat.fau.eu/enrique-zuazua/">Enrique Zuazua</a>. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in the interplay of partial differential equations and machine learning. 
