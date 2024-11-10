@@ -23,5 +23,7 @@ I got my PhD from la Autónoma de Madrid in 2021. My advisor was <a class="publi
 I am a mathematician, and more specifically, an analyst. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
 
 <b>Contact</b>
+
 office: 15-25 317, Laboratoire Jacques-Louis Lions, 4 Place Jussieu, 75005 Paris
+
 email: borjan dot geshkovski at inria dot fr
