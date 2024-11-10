@@ -186,7 +186,7 @@ nav_order: 2
 </div>
 
   <!-- Right section for the image -->
-  <div style="max-width: 220px; margin-left: 20px;">
+  <div style="max-width: 225px; margin-left: 20px;">
     <img src="/assets/img/blackboard.jpg" alt="blackboard" style="width: 100%; height: auto;" 
          onmouseover="this.src='/assets/img/blackboard-2.jpg'" 
          onmouseout="this.src='/assets/img/blackboard.jpg'">
