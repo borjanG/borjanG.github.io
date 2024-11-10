@@ -173,8 +173,7 @@ nav_order: 2
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD Thesis 
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Universidad Autónoma de Madrid
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(For some reason, the version of my thesis published on the UAM library webpage contains 
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;formatting errors that were not caused by me.)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(For some reason, the version of my thesis published on the UAM library webpage contains formatting errors that were not caused by me.)
     
     <br>
     <br>
@@ -187,7 +186,9 @@ nav_order: 2
 </div>
 
   <!-- Right section for the image -->
-  <div style="max-width: 200px; margin-left: 20px;">
-    <img src="/assets/img/blackboard.jpg" alt="blackboard" style="width: 100%; height: auto;">
+  <div style="max-width: 220px; margin-left: 20px;">
+    <img src="/assets/img/blackboard.jpg" alt="blackboard" style="width: 100%; height: auto;" 
+         onmouseover="this.src='/assets/img/blackboard-2.jpg'" 
+         onmouseout="this.src='/assets/img/blackboard.jpg'">
   </div>
 </div>
