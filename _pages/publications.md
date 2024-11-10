@@ -9,26 +9,72 @@ nav_order: 2
 
 <div>
     <br>
-    (Should you need a published version, please contact me.)
+    (Feel free to contact me for published versions.)
     
     <br>
     <br>
 
     <table>
+
+        <tr>
+        <td valign="top">&nbsp;&nbsp;15.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><a class="publink" href="">Transformers in the guise of many-particle systems</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        </tr>
+
+        <tr>
+        <td valign="top">&nbsp;&nbsp;14.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><a class="publink" href="">On the number of modes of Gaussian kernel density estimators</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Philippe Rigollet and Yihang Sun
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers-rotf">GitHub</a>
+        </td>
+        </tr>
+
+        <tr>
+        <td valign="top">&nbsp;&nbsp;13.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><a class="publink" href="">Constructive approximate transport maps with normalizing flows</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Antonio Alvarez-Lopez and Domènec Ruiz-Balet
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        </tr>
+
+        <tr>
+        <td valign="top">&nbsp;&nbsp;12.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><a class="publink" href="">Measure-to-measure interpolation using Transformers</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Philippe Rigollet and Domènec Ruiz-Balet
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;submitted, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        </tr>
+
+        <tr>
+        <td valign="top">&nbsp;&nbsp;11.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><a class="publink" href="">Dynamic metastability in the self-attention model</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Hugo Koubbi, Yury Polyanskiy and Philippe Rigollet
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;submitted, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers-rotf">GitHub</a>
+        </td>
+        </tr>
+
         <tr>
         <td valign="top">&nbsp;&nbsp;10.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><a class="publink" href="assets/2312.10794.pdf">A mathematical perspective on Transformers</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preprint, 2023
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="arxiv" href="https://arxiv.org/abs/2312.10794">arXiv</a>, <a class="github" href="https://github.com/borjanG/2023-transformers-rotf">GitHub</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bulletin of the AMS, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers-rotf">GitHub</a>
         </td>
         </tr>
         <tr>
         <td valign="top">&nbsp;&nbsp;9.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><a class="publink" href="assets/2305.05465.pdf">The emergence of clusters in self-attention dynamics</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeurIPS, 2023
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="arxiv" href="https://arxiv.org/abs/2305.05465">arXiv</a>, <a class="github" href="https://github.com/borjanG/2023-transformers">GitHub</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeurIPS, 2024
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="github" href="https://github.com/borjanG/2023-transformers">GitHub</a>
         </td>
         </tr>
         <tr>
