@@ -133,12 +133,14 @@ nav_order: 2
         <td><a class="publink" href="https://epubs.siam.org/doi/abs/10.1137/19M1285354">Controllability of one-dimensional viscous free boundary flows</a> 
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Enrique Zuazua
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIAM Journal on Control and Optimization, 2021
+        </td>
         </tr>
 
         <tr>
         <td valign="top">&nbsp;&nbsp;1.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         <td><a class="publink" href="https://hal.archives-ouvertes.fr/hal-02280993/">Null-controllability of perturbed porous medium gas flow</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESAIM Control, Optimisation and Calculus of Variations, 2020
+        </td>
         </tr>
 
         </table>
