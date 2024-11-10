@@ -34,7 +34,7 @@ nav_order: 2
 
         <tr>
         <td valign="top">&nbsp;&nbsp;13.</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td><a class="publink" href="">Constructive approximate transport maps with normalizing flows</a>
+        <td><a class="publink">Constructive approximate transport maps with normalizing flows</a>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Antonio Alvarez-Lopez and Domènec Ruiz-Balet
           <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forthcoming, 2024
         </td>
