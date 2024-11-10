@@ -1,15 +1,14 @@
 ---
 layout: page
 permalink: /papers/
-title: 
+title: papers
 description: 
 nav: true
 nav_order: 2
 ---
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <h1>papers</h1>
-  <img src="/assets/img/blackboard.jpg" alt="blackboard" style="max-width: 250px; height: auto;">
+<div style="display: flex; justify-content: flex-end; align-items: center;">
+  <img src="/assets/img/blackboard.jpg" alt="blackboard" style="max-width: 220px; height: auto; margin-left: auto;">
 </div>
 
 <div>
