@@ -8,9 +8,6 @@ nav_order: 2
 ---
 
 (Feel free to contact me for published versions.)
-    
-<br>
-<br>
 
 <ol reversed>
   <li>
