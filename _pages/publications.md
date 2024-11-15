@@ -17,6 +17,7 @@ nav_order: 2
     <a class="publink">Transformers in the guise of many-particle systems</a><br>
     forthcoming<br>
     2024<br>
+    <br>
   </li>
 
   <li>
@@ -25,6 +26,7 @@ nav_order: 2
     forthcoming<br>
     2024<br>
     <a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -32,6 +34,7 @@ nav_order: 2
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
     forthcoming<br>
     2024<br>
+    <br>
   </li>
 
   <li>
@@ -39,6 +42,7 @@ nav_order: 2
     with Philippe Rigollet and Domènec Ruiz-Balet<br>
     preprint<br>
     2024<br>
+    <br>
   </li>
 
   <li>
@@ -47,6 +51,7 @@ nav_order: 2
     preprint<br>
     2024<br>
     <a class="github" href="https://github.com/HugoKoubbi/2024-transformers-dotm">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -55,6 +60,7 @@ nav_order: 2
     Bulletin of the AMS<br>
     2024<br>
     <a class="github" href="https://github.com/borjanG/2023-transformers-rotf">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -63,6 +69,7 @@ nav_order: 2
     NeurIPS<br>
     2024<br>
     <a class="github" href="https://github.com/borjanG/2023-transformers">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -71,6 +78,7 @@ nav_order: 2
     Mathematical Models and Methods in Applied Sciences<br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/2022-stefan-control">[github]</a><br> 
+    <br>
   </li>
 
   <li>
@@ -79,6 +87,7 @@ nav_order: 2
     IEEE Transactions on Automatic Control<br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/optimal.controller">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -87,6 +96,7 @@ nav_order: 2
     Systems & Control Letters<br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -95,6 +105,7 @@ nav_order: 2
     Acta Numerica<br>
     2022<br>
     <a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -103,6 +114,7 @@ nav_order: 2
     Nonlinearity<br>
     2022<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -111,6 +123,7 @@ nav_order: 2
     preprint<br>
     2021<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems">[github]</a><br>
+    <br>
   </li>
 
   <li>
@@ -118,12 +131,14 @@ nav_order: 2
     with Enrique Zuazua<br>
     SIAM Journal on Control and Optimization<br>
     2021<br>
+    <br>
   </li>
 
   <li>
     <a class="publink" href="https://hal.archives-ouvertes.fr/hal-02280993/">Null-controllability of perturbed porous medium gas flow</a><br>
     ESAIM Control, Optimisation and Calculus of Variations<br>
     2020<br>
+    <br>
   </li>
 </ol>
 
