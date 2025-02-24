@@ -10,26 +10,26 @@ nav_order: 2
 (Feel free to contact me for published versions.)
 
 <ol reversed>
-  <li>
+  <!-- <li>
     <a class="publink">Transformers in the guise of many-particle systems</a><br>
     forthcoming<br>
     2024<br>
     <br>
-  </li>
+  </li> -->
 
   <li>
-    <a class="publink">On the number of modes of Gaussian kernel density estimators</a><br> 
+    <a class="publink" href="https://arxiv.org/abs/2412.09080">On the number of modes of Gaussian kernel density estimators</a><br> 
     with Philippe Rigollet and Yihang Sun<br>
-    forthcoming<br>
+    preprint<br>
     2024<br>
     <a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention">[github]</a><br>
     <br>
   </li>
 
   <li>
-    <a class="publink">Constructive approximate transport maps with normalizing flows</a><br>
+    <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    forthcoming<br>
+    preprint<br>
     2024<br>
     <br>
   </li>
@@ -54,7 +54,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2312.10794">A mathematical perspective on Transformers</a><br>
     with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet<br>
-    Bulletin of the AMS<br>
+    Bulletin of the American Mathematical Society<br>
     2024<br>
     <a class="github" href="https://github.com/borjanG/2023-transformers-rotf">[github]</a><br>
     <br>
