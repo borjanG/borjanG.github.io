@@ -14,7 +14,7 @@ You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subs
 
 *Spring 2025*
 
-<b>02.06.</b> Scott Armstrong (Courant & LJLL)
+<b>02.06.</b> Scott Armstrong (LJLL & Courant Institute)
 
 <b>26.05.</b> Matt Rosenzweig (Carnegie Mellon)
 

@@ -17,20 +17,20 @@ nav_order: 2
     <br>
   </li> -->
 
+   <li>
+    <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
+    with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
+    preprint<br>
+    2024<br>
+    <br>
+  </li>
+
   <li>
     <a class="publink" href="https://arxiv.org/abs/2412.09080">On the number of modes of Gaussian kernel density estimators</a><br> 
     with Philippe Rigollet and Yihang Sun<br>
     preprint<br>
     2024<br>
     <a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention">[github]</a><br>
-    <br>
-  </li>
-
-  <li>
-    <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
-    with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    preprint<br>
-    2024<br>
     <br>
   </li>
 
@@ -78,7 +78,17 @@ nav_order: 2
     <br>
   </li>
 
+  
   <li>
+    <a class="publink" href="https://arxiv.org/abs/2202.04097">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
+    with Enrique Zuazua<br>
+    Acta Numerica<br>
+    2022<br>
+    <a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets">[github]</a><br>
+    <br>
+  </li>
+
+   <li>
     <a class="publink" href="https://arxiv.org/abs/2108.05629">Optimal controller design via Brunovsky's normal form</a><br>
     with Enrique Zuazua<br>
     IEEE Transactions on Automatic Control<br>
@@ -93,15 +103,6 @@ nav_order: 2
     Systems & Control Letters<br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems">[github]</a><br>
-    <br>
-  </li>
-
-  <li>
-    <a class="publink" href="https://arxiv.org/abs/2202.04097">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
-    with Enrique Zuazua<br>
-    Acta Numerica<br>
-    2022<br>
-    <a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets">[github]</a><br>
     <br>
   </li>
 
