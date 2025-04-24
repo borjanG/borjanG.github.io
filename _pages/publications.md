@@ -80,7 +80,7 @@ nav_order: 2
 
   
   <li>
-    <a class="publink" href="https://arxiv.org/abs/2202.04097">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
+    <a class="publink" href="assets/pdf/acta-numerica.pdf">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
     with Enrique Zuazua<br>
     Acta Numerica<br>
     2022<br>

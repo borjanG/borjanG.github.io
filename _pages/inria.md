@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /the_seminar/
-title: the seminar
+title: megavolt
 description: 
 nav: true
 nav_order: 7
