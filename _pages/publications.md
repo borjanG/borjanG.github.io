@@ -143,7 +143,7 @@ nav_order: 2
 
 <b>Theses</b><br>
 
-<a class="publink" href="https://github.com/borjanG/borjanG.github.io/blob/master/assets/these.pdf">T1. Control in moving interfaces and deep learning</a><br>
+<a class="publink" href="/assets/these.pdf">T1. Control in moving interfaces and deep learning</a><br>
 PhD Thesis<br>
 Universidad Autónoma de Madrid<br>
 2021<br>
