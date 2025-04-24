@@ -7,16 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-(Feel free to contact me for published versions.)
+
 
 <ol reversed>
-  <!-- <li>
-    <a class="publink">Transformers in the guise of many-particle systems</a><br>
-    forthcoming<br>
-    2024<br>
-    <br>
-  </li> -->
-
+ 
    <li>
     <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
