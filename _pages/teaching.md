@@ -12,7 +12,8 @@ nav_order: 6
   <div style="flex: 1;">
     Winter &rarr; Spring semester, at <span style="font-family: cursive;">Sorbonne</span>:<br><br>
     <a href="https://www.ljll.fr/MathModel/enseignement/cours/84.html" target="_blank">
-      https://www.ljll.fr/MathModel/enseignement/cours/84.html
+      <code>https://www.ljll.fr/MathModel/enseignement/cours/84.html
+      </code>
     </a>
   </div>
 
