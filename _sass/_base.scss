@@ -5,33 +5,6 @@
 
 // Typography
 
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
-  font-style: italic, oblique;
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
-  font-weight: bold;
-  font-style: italic, oblique;
-}
-
-body {
-  font-family: "Computer Modern", sans-serif;
-}
 
 /* Typography color */
 body,
@@ -48,14 +21,13 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Computer Modern", sans-serif;
+  font-family: "Garamond", "EB Garamond", "Georgia", serif;
 }
 
-/* Additional font usage */
 .caption,
 .card-title,
 blockquote {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "Garamond", "EB Garamond", "Georgia", serif;
 }
 
 
