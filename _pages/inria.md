@@ -16,37 +16,44 @@ You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subs
 
 <code>Spring 2025</code>
 
-*02.06.* Scott Armstrong (LJLL & Courant Institute)
+<div style="margin-left: 1em;">
+  <em>02.06.</em> Scott Armstrong (LJLL & Courant Institute)
 
-*26.05.* Matt Rosenzweig (Carnegie Mellon)
+  *26.05.* Matt Rosenzweig (Carnegie Mellon)
 
-*19.05.* Tony Lelièvre (Ecole des Ponts)
+  *19.05.* Tony Lelièvre (Ecole des Ponts)
 
-*14.04.* Marylou Gabrié (ENS)
+  *14.04.* Marylou Gabrié (ENS)
 
-*25.03.* Andrea Agazzi (Bern)
+  *25.03.* Andrea Agazzi (Bern)
 
-*03.03.* Flavien Léger (Inria)
+  *03.03.* Flavien Léger (Inria)
 
-*17.02.* Jaouad Mourtada (ENSAE)
+  *17.02.* Jaouad Mourtada (ENSAE)
+</div>
+
 
 
 <code>Fall 2024</code> 
 
-*09.12.* Alena Kopanicakova (IRIT)
+<div style="margin-left: 1em;">
+  <em>09.12.</em> Alena Kopanicakova (IRIT)
 
-*18.11.* Bruno Loureiro (ENS)
+  *18.11.* Bruno Loureiro (ENS)
 
-*14.10.* Sasha Rakhlin (MIT)
+  *14.10.* Sasha Rakhlin (MIT)
 
-*30.09.* Nicolas Boumal (EPFL)
+  *30.09.* Nicolas Boumal (EPFL)
+</div>
 
 <code>Spring 2024</code>
 
-*14.06.* Christophe Giraud (Orsay)
+<div style="margin-left: 1em;">
+  <em>14.06.</em> Christophe Giraud (Orsay)
 
-*03.06.* Max Fathi (LJLL & LPSM)
+  *03.06.* Max Fathi (LJLL & LPSM)
 
-*07.05.* Leonardo Zepeda-Núñez (UW Madison & Google)
+  *07.05.* Leonardo Zepeda-Núñez (UW Madison & Google)
 
+</div>
 
