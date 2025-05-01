@@ -13,39 +13,40 @@ The seminar takes place one Monday a month, from 10:30 to 12:00, in the seminar 
 You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subscribe/gdt-acube" rel="nofollow">here</a>. <!-- html-proofer-disable -->
 
 
-*Spring 2025*
 
-<b>02.06.</b> Scott Armstrong (LJLL & Courant Institute)
+<code>Spring 2025</code>
 
-<b>26.05.</b> Matt Rosenzweig (Carnegie Mellon)
+*02.06.* Scott Armstrong (LJLL & Courant Institute)
 
-<b>17.05.</b> Tony Lelièvre (Ecole des Ponts)
+*26.05.* Matt Rosenzweig (Carnegie Mellon)
 
-<b>14.04.</b> Marylou Gabrié (ENS)
+*19.05.* Tony Lelièvre (Ecole des Ponts)
 
-<b>25.03.</b> Andrea Agazzi (Bern)
+*14.04.* Marylou Gabrié (ENS)
 
-<b>03.03.</b> Flavien Léger (Inria)
+*25.03.* Andrea Agazzi (Bern)
 
-<b>17.02.</b> Jaouad Mourtada (ENSAE)
+*03.03.* Flavien Léger (Inria)
+
+*17.02.* Jaouad Mourtada (ENSAE)
 
 
-*Fall 2024* 
+<code>Fall 2024</code> 
 
-<b>09.12.</b> Alena Kopanicakova (IRIT)
+*09.12.* Alena Kopanicakova (IRIT)
 
-<b>18.11.</b> Bruno Loureiro (ENS)
+*18.11.* Bruno Loureiro (ENS)
 
-<b>14.10.</b> Sasha Rakhlin (MIT)
+*14.10.* Sasha Rakhlin (MIT)
 
-<b>30.09.</b> Nicolas Boumal (EPFL)
+*30.09.* Nicolas Boumal (EPFL)
 
-*Spring 2024*
+<code>Spring 2024</code>
 
-<b>14.06.</b> Christophe Giraud (Orsay)
+*14.06.* Christophe Giraud (Orsay)
 
-<b>03.06.</b> Max Fathi (LJLL & LPSM)
+*03.06.* Max Fathi (LJLL & LPSM)
 
-<b>07.05.</b> Leonardo Zepeda-Núñez (UW Madison & Google)
+*07.05.* Leonardo Zepeda-Núñez (UW Madison & Google)
 
 
