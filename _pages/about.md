@@ -22,20 +22,27 @@ I got my PhD from la Autónoma de Madrid in 2021. My advisor was <a class="publi
 
 I work in applied mathematics. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
 
-<code>News</code>
-<div style="margin-left: 2em; margin-top: 0;">
-  <em>April 2025.</em> I gave a popular science talk in <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a>, at the Institut Henri Poincaré, on the "Mathematics of ChatGPT".<br><br>
+<div style="display: flex; flex-direction: column;">
+  <div><code>News</code></div>
+  <div style="margin-left: 2em;">
+    <em>April 2025.</em> I gave a popular science talk in
+    <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a>, at the Institut Henri Poincaré, on the "Mathematics of ChatGPT".<br><br>
+  </div>
 </div>
 
 
 
-<code>Contact</code>
-<div style="margin-left: 2em; margin-top: 0;">
-  Office 15-25 320<br>
-  Laboratoire Jacques-Louis Lions<br>
-  4 Place Jussieu, 75005 Paris<br>
-  <code>email:</code> borjan dot geshkovski at inria dot fr
+
+<div style="display: flex; flex-direction: column;">
+  <div><code>Contact</code></div>
+  <div style="margin-left: 2em;">
+    Office 15-25 320<br>
+    Laboratoire Jacques-Louis Lions<br>
+    4 Place Jussieu, 75005 Paris<br>
+    <code>email:</code> borjan dot geshkovski at inria dot fr
+  </div>
 </div>
+
 
 
 
