@@ -6,7 +6,6 @@
 // Typography
 
 
-/* Typography color */
 body,
 p,
 h1,
@@ -21,14 +20,9 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "STIX Two Text", "Georgia", serif;
+  font-family: "STIX Two Text", serif;
 }
 
-.caption,
-.card-title,
-blockquote {
-  font-family: "STIX Two Text", "Georgia", serif;
-}
 
 
 
