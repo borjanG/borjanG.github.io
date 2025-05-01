@@ -20,11 +20,11 @@ I am a junior researcher at Inria Paris, hosted by the Laboratoire Jacques-Louis
 I was previously a postdoc at MIT under <a class="publink" href="https://math.mit.edu/~rigollet/">Philippe Rigollet</a> and <a class="publink" href="https://math.mit.edu/icg/">Laurent Demanet</a>.
 I got my PhD from la Autónoma de Madrid in 2021. My advisor was <a class="publink" href="https://dcn.nat.fau.eu/enrique-zuazua/">Enrique Zuazua</a>. 
 
-I am a mathematician, and more specifically, an analyst. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
+I work in applied mathematics. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
 
 <strong>News</strong>
 
-*April 2025.* I gave a popular science talk in <a class="publink" href="">Mathematic Park</a><br>, at the Institut Henri Poincaré, on the "Mathematics of ChatGPT".
+*April 2025.* I gave a popular science talk in <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a><br>, at the Institut Henri Poincaré, on the "Mathematics of ChatGPT".
 
 <strong>Contact</strong><br>
 Office 15-25 320<br>
