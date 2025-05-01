@@ -23,6 +23,7 @@ I got my PhD from la Autónoma de Madrid in 2021. My advisor was <a class="publi
 I am a mathematician, and more specifically, an analyst. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
 
 <b>News:</b>
+- I gave a popular science talk in <a class="publink" href="https://www.google.com/search?client=safari&rls=en&q=mathematic+park&ie=UTF-8&oe=UTF-8">Mathematic Park</a><br> at Institut Henri Poincaré on the mathematics of ChatGPT.
 
 <b>Contact:</b><br>
 Office 15-25 320<br>
