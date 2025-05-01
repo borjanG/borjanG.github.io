@@ -39,7 +39,7 @@ I work in applied mathematics. My interests gravitate around problems arising in
     Office 15-25 320<br>
     Laboratoire Jacques-Louis Lions<br>
     4 Place Jussieu, 75005 Paris<br>
-    <code>email:</code> borjan dot geshkovski at inria dot fr
+    email: borjan dot geshkovski at inria dot fr
   </div>
 </div>
 
