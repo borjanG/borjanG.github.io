@@ -10,7 +10,8 @@ nav_order: 7
 I am part of the Inria research team <a href="https://www.inria.fr/en/megavolt">Megavolt</a>, and jointly with <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a>, we organize a monthly seminar on topics broadly linking analysis, learning, and algorithms.
 
 The seminar takes place one Monday a month, from 10:30 to 12:00, in the seminar room of Laboratoire Jacques-Louis Lions. 
-You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subscribe/gdt-acube" rel="nofollow">here</a>. <!-- html-proofer-disable -->
+You can subscribe to the mailing list <span style="color: #0d6efd; text-decoration: underline; cursor: pointer;">https://sympa.inria.fr/sympa/subscribe/gdt-acube</span>
+
 
 
 *Spring 2025*
