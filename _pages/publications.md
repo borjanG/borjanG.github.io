@@ -135,17 +135,24 @@ nav_order: 2
 </ol>
 
 
-<span style="font-size: 3em;">theses</span><br>
+<span style="font-size: 3em;">theses</span>
 
-<a class="publink" href="/assets/pdf/these.pdf">T1. Control in moving interfaces and deep learning</a><br>
-PhD Thesis<br>
-Universidad Autónoma de Madrid<br>
-2021<br>
-(The version published on the UAM library webpage contains formatting errors not caused by me.)<br>
+<ol reversed start="0">
+  <li>
+    <a class="publink" href="/assets/pdf/these.pdf">T1. Control in moving interfaces and deep learning</a><br>
+    PhD Thesis<br>
+    Universidad Autónoma de Madrid<br>
+    2021<br>
+    (The version published on the UAM library webpage contains formatting errors not caused by me.)<br>
+    <br>
+  </li>
 
+  <li>
+    <a class="publink" href="https://cmc.deusto.eus/wp-content/uploads/2019/05/MasterThesis_GeshkovskiDyCon.pdf">T2. Obstacle problems: theory and applications</a><br>
+    MSc Thesis<br>
+    Université de Bordeaux<br>
+    2018<br>
+    <br>
+  </li>
+</ol>
 
-<a class="publink" href="https://cmc.deusto.eus/wp-content/uploads/2019/05/MasterThesis_GeshkovskiDyCon.pdf">T2. Obstacle problems: theory and applications</a><br>
-MSc Thesis<br>
-Université de Bordeaux<br>
-2018
-    
