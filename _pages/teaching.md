@@ -10,7 +10,7 @@ nav_order: 6
 <div style="display: flex; align-items: flex-start;">
   <!-- Left section for the content -->
   <div style="flex: 1;">
-    <i>Winter &rarr; Spring semester, at Sorbonne:</i><br><br>
+    Winter &rarr; Spring semester, at <span style="font-family: cursive;">Sorbonne</span>:<br><br>
     <a href="https://www.ljll.fr/MathModel/enseignement/cours/84.html" target="_blank">
       https://www.ljll.fr/MathModel/enseignement/cours/84.html
     </a>
