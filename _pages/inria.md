@@ -14,35 +14,39 @@ You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subs
 
 
 
-<p><code>Spring 2025</code></p>
-<div style="margin-left: 2em; margin-top: 0;">
-  <em>02.06.</em> Scott Armstrong (LJLL & Courant Institute)<br>
-  <em>26.05.</em> Matt Rosenzweig (Carnegie Mellon)<br>
-  <em>19.05.</em> Tony Lelièvre (Ecole des Ponts)<br>
-  <em>14.04.</em> Marylou Gabrié (ENS)<br>
-  <em>25.03.</em> Andrea Agazzi (Bern)<br>
-  <em>03.03.</em> Flavien Léger (Inria)<br>
-  <em>17.02.</em> Jaouad Mourtada (ENSAE)<br><br>
-</div>
+<!-- Spring 2025 -->
+<code>Spring 2025</code>
+<table style="margin-left: 2em; margin-top: 0;">
+  <tr><td><em>02.06.</em></td><td>Scott Armstrong</td><td>(LJLL & Courant Institute)</td></tr>
+  <tr><td><em>26.05.</em></td><td>Matt Rosenzweig</td><td>(Carnegie Mellon)</td></tr>
+  <tr><td><em>19.05.</em></td><td>Tony Lelièvre</td><td>(Ecole des Ponts)</td></tr>
+  <tr><td><em>14.04.</em></td><td>Marylou Gabrié</td><td>(ENS)</td></tr>
+  <tr><td><em>25.03.</em></td><td>Andrea Agazzi</td><td>(Bern)</td></tr>
+  <tr><td><em>03.03.</em></td><td>Flavien Léger</td><td>(Inria)</td></tr>
+  <tr><td><em>17.02.</em></td><td>Jaouad Mourtada</td><td>(ENSAE)</td></tr>
+</table>
 
+<br>
 
+<!-- Fall 2024 -->
+<code>Fall 2024</code>
+<table style="margin-left: 2em; margin-top: 0;">
+  <tr><td><em>09.12.</em></td><td>Alena Kopanicakova</td><td>(IRIT)</td></tr>
+  <tr><td><em>18.11.</em></td><td>Bruno Loureiro</td><td>(ENS)</td></tr>
+  <tr><td><em>14.10.</em></td><td>Sasha Rakhlin</td><td>(MIT)</td></tr>
+  <tr><td><em>30.09.</em></td><td>Nicolas Boumal</td><td>(EPFL)</td></tr>
+</table>
 
+<br>
 
-<p><code>Fall 2024</code></p>
-<div style="margin-left: 2em; margin-top: 0;">
-  <em>09.12.</em> Alena Kopanicakova (IRIT)<br>
-  <em>18.11.</em> Bruno Loureiro (ENS)<br>
-  <em>14.10.</em> Sasha Rakhlin (MIT)<br>
-  <em>30.09.</em> Nicolas Boumal (EPFL)<br><br>
-</div>
+<!-- Spring 2024 -->
+<code>Spring 2024</code>
+<table style="margin-left: 2em; margin-top: 0;">
+  <tr><td><em>14.06.</em></td><td>Christophe Giraud</td><td>(Orsay)</td></tr>
+  <tr><td><em>03.06.</em></td><td>Max Fathi</td><td>(LJLL & LPSM)</td></tr>
+  <tr><td><em>07.05.</em></td><td>Leonardo Zepeda-Núñez</td><td>(UW Madison & Google)</td></tr>
+</table>
 
-
-<p><code>Spring 2024</code></p>
-<div style="margin-left: 2em; margin-top: 0;">
-  <em>14.06.</em> Christophe Giraud (Orsay)<br>
-  <em>03.06.</em> Max Fathi (LJLL & LPSM)<br>
-  <em>07.05.</em> Leonardo Zepeda-Núñez (UW Madison & Google)
-</div>
 
 
 
