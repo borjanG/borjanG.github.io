@@ -22,10 +22,11 @@ I got my PhD from la Autónoma de Madrid in 2021. My advisor was <a class="publi
 
 I am a mathematician, and more specifically, an analyst. My interests gravitate around problems arising in machine learning, control theory, and numerical analysis. 
 
-<b>News:</b>
-- I gave a popular science talk in <a class="publink" href="">Mathematic Park</a><br> at Institut Henri Poincaré on the mathematics of ChatGPT.
+<strong>News</strong>
 
-<b>Contact:</b><br>
+*April 2025.* I gave a popular science talk in <a class="publink" href="">Mathematic Park</a><br>, at the Institut Henri Poincaré, on the "Mathematics of ChatGPT".
+
+<strong>Contact</strong><br>
 Office 15-25 320<br>
 Laboratoire Jacques-Louis Lions<br>
 4 Place Jussieu, 75005 Paris<br>
