@@ -135,7 +135,7 @@ nav_order: 2
 </ol>
 
 
-<span style="font-size: 8em;">Theses</span><br>
+<span style="font-size: 3em;">theses</span><br>
 
 <a class="publink" href="/assets/pdf/these.pdf">T1. Control in moving interfaces and deep learning</a><br>
 PhD Thesis<br>
