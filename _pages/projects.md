@@ -16,7 +16,7 @@ nav_order: 3
 
 .repo-card {
   flex: 1 1 calc(50% - 1em);
-  border: 2px solid #555;       /* Stronger border */
+  border: 1.5px solid #aaa;  /* Light-medium gray */
   border-radius: 0;             /* No rounding */
   padding: 0.5em 1em;
   height: 220px;                /* Rectangular shape */
@@ -29,10 +29,10 @@ nav_order: 3
 
 .repo-card img {
   max-width: 100%;
-  max-height: 100px;            /* Smaller image height */
+  max-height: 130px;
   object-fit: contain;
   margin-bottom: 0.5em;
-  border-radius: 0;             /* No image rounding */
+  border-radius: 0;
 }
 
 .repo-card h3 {
