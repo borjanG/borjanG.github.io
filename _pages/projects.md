@@ -44,7 +44,7 @@ nav_order: 3
         are Transformers Frank-Wolfe in disguise?
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/cells.png' | relative_url }}" alt="transformers frank-wolfe preview">
+    <img src="{{ '/assets/img/cells.png' | relative_url }}" alt="transformers frank-wolfe preview">
   </div>
 
   <div class="repo-card">
@@ -53,7 +53,7 @@ nav_order: 3
         number of modes of Gaussian KDEs
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/5.gif' | relative_url }}" alt="gaussian KDE preview">
+    <img src="{{ '/assets/img/5.gif' | relative_url }}" alt="gaussian KDE preview">
   </div>
 
   <div class="repo-card">
@@ -62,7 +62,7 @@ nav_order: 3
         dynamic metastability in the self-attention model
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/in-rainbows.png' | relative_url }}" alt="transformers metastability preview">
+    <img src="{{ '/assets/img/in-rainbows.png' | relative_url }}" alt="transformers metastability preview">
   </div>
 
   <div class="repo-card">
@@ -71,7 +71,7 @@ nav_order: 3
         a mathematical perspective on Transformers
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/1.gif' | relative_url }}" alt="transformers ROTF preview">
+    <img src="{{ '/assets/img/1.gif' | relative_url }}" alt="transformers ROTF preview">
   </div>
 
   <div class="repo-card">
@@ -80,7 +80,7 @@ nav_order: 3
         emergence of clusters in self-attention dynamics
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/2.gif' | relative_url }}" alt="self-attention clusters preview">
+    <img src="{{ '/assets/img/2.gif' | relative_url }}" alt="self-attention clusters preview">
   </div>
 
   <div class="repo-card">
@@ -89,7 +89,7 @@ nav_order: 3
         neural ODEs
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/4.gif' | relative_url }}" alt="neural ODEs preview">
+    <img src="{{ '/assets/img/4.gif' | relative_url }}" alt="neural ODEs preview">
   </div>
 
   <div class="repo-card">
@@ -98,7 +98,7 @@ nav_order: 3
         control of the Stefan problem
       </a>
     </h3>
-    <img src="{{ '/assets/imgs/3.gif' |relative_url }}" alt="Stefan problem preview">
+    <img src="{{ '/assets/img/3.gif' |relative_url }}" alt="Stefan problem preview">
   </div>
 
 </div>
