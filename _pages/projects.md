@@ -6,52 +6,65 @@ nav: true
 nav_order: 3
 ---
 
-<div id="repo-grid" style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: space-between;"></div>
-
-<script>
-async function fetchReadmeSnippet(owner, repo) {
-  try {
-    const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`;
-    const response = await fetch(url);
-    if (!response.ok) throw new Error("Not found");
-    const text = await response.text();
-    return text.split('\n').slice(0, 8).join('\n'); // First 8 lines
-  } catch (error) {
-    return "(Could not load README)";
-  }
+<style>
+.repo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
 }
-
-async function addRepoCard(owner, repo) {
-  const snippet = await fetchReadmeSnippet(owner, repo);
-  const container = document.getElementById('repo-grid');
-
-  const card = document.createElement('div');
-  card.style.flex = '1 1 calc(50% - 1em)';
-  card.style.border = '1px solid #ccc';
-  card.style.padding = '1em';
-  card.style.borderRadius = '8px';
-  card.style.backgroundColor = '#fdfdfd';
-  card.style.boxShadow = '2px 2px 5px rgba(0,0,0,0.05)';
-  card.style.whiteSpace = 'pre-wrap';
-
-  card.innerHTML = `
-    <h3><a href="https://github.com/${owner}/${repo}" target="_blank">${repo}</a></h3>
-    <pre style="font-size: 0.9em; font-family: monospace;">${snippet}</pre>
-  `;
-
-  container.appendChild(card);
+.repo-card {
+  flex: 1 1 calc(50% - 1em);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  background-color: #fdfdfd;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: calc(50% - 1em);
 }
+.repo-card img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 0.5em;
+}
+.repo-card h3 {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}
+</style>
 
-const repos = [
-  ['borjanG', '2023-transformers-rotf'],
-  ['borjanG', '2023-transformers'],
-  ['borjanG', '2022-stefan-control'],
-  ['borjanG', '2022-turnpike-pde-resnets'],
-  ['borjanG', 'optimal.controller'],
-  ['borjanG', 'dynamical.systems'],
-  ['HugoKoubbi', '2024-transformers-dotm'],
-  ['KimiSun18', '2024-gauss-kde-attention'],
-];
+<div class="repo-grid">
 
-repos.forEach(([owner, repo]) => addRepoCard(owner, repo));
-</script>
+  <div class="repo-card">
+    <a href="https://github.com/borjanG/2023-transformers-rotf">
+      <h3 title="borjanG/2023-transformers-rotf">A mathematical perspective on Transformers</h3>
+    </a>
+    <img src="/assets/imgs/1.gif" alt="transformers-rotf preview">
+  </div>
+
+  <div class="repo-card">
+    <a href="https://github.com/borjanG/2023-transformers">
+      <h3 title="borjanG/2023-transformers">Emergence of clusters in self-attention dynamics</h3>
+    </a>
+    <img src="/assets/imgs/2.gif" alt="transformers preview">
+  </div>
+
+  <div class="repo-card">
+    <a href="https://github.com/borjanG/leia">
+      <h3 title="borjanG/leia">Optimal control and neural ODEs</h3>
+    </a>
+    <img src="/assets/imgs/4.gif" alt="dynamical systems">
+  </div>
+
+  <div class="repo-card">
+    <a href="https://github.com/borjanG/2022-stefan-control">
+      <h3 title="borjanG/2022-stefan-control">Control of the Stefan problem</h3>
+    </a>
+    <img src="/assets/imgs/3.gif" alt="stefan control">
+  </div>
+
+
+</div>
