@@ -11,11 +11,11 @@ nav_order: 3
 <script>
 async function fetchReadmeSnippet(owner, repo) {
   try {
-    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`);
-    const data = await response.json();
-    const decoded = atob(data.content || "");
-    const snippet = decoded.split('\n').slice(0, 8).join('\n'); // First 8 lines
-    return snippet;
+    const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Not found");
+    const text = await response.text();
+    return text.split('\n').slice(0, 8).join('\n'); // First 8 lines
   } catch (error) {
     return "(Could not load README)";
   }
