@@ -13,30 +13,35 @@ nav_order: 3
   gap: 1em;
   justify-content: space-between;
 }
+
 .repo-card {
   flex: 1 1 calc(50% - 1em);
-  border: 2px solid #555; /* Stronger border */
-  border-radius: 6px;
-  padding: 0.5em 1em;      /* Less vertical space */
-  height: 220px;           /* Fixed height for rectangular look */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  border: 2px solid #555;        /* Stronger border */
+  border-radius: 0;              /* Remove rounding */
+  padding: 0.5em 1em;
+  height: 220px;
+  box-shadow: none;              /* Optional: remove shadow for a flat look */
   background-color: #fdfdfd;
   text-align: center;
   box-sizing: border-box;
   max-width: calc(50% - 1em);
   overflow: hidden;
 }
+
 .repo-card img {
-  max-width: 100%;
-  max-height: 150px;
-  object-fit: contain;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
   margin-bottom: 0.5em;
+  border-radius: 0;              /* Remove image rounding */
 }
+
 .repo-card h3 {
   margin: 0.5em 0;
   font-size: 1.1em;
 }
 </style>
+
 
 <div class="repo-grid">
 
