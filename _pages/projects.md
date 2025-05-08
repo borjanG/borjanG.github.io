@@ -15,14 +15,16 @@ nav_order: 3
 }
 .repo-card {
   flex: 1 1 calc(50% - 1em);
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1em;
+  border: 2px solid #555; /* Stronger border */
+  border-radius: 6px;
+  padding: 0.5em 1em;      /* Less vertical space */
+  height: 220px;           /* Fixed height for rectangular look */
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
   background-color: #fdfdfd;
   text-align: center;
   box-sizing: border-box;
   max-width: calc(50% - 1em);
+  overflow: hidden;
 }
 .repo-card img {
   max-width: 100%;
