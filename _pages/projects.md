@@ -48,7 +48,7 @@ nav_order: 3
   <div class="repo-card">
     <h3>
       <a class="publink" href="https://github.com/borjanG/2025-transformers-frank-wolfe">
-        are Transformers Frank-Wolfe in disguise?
+        coming soon.
       </a>
     </h3>
     <img src="{{ '/assets/img/cells.png' | relative_url }}" alt="transformers frank-wolfe preview">
