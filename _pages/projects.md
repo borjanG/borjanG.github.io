@@ -7,6 +7,10 @@ nav_order: 3
 ---
 
 <style>
+:root {
+  --link-hover-color: #0070c9;  /* Replace with your real .publink hover color if different */
+}
+
 .repo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -16,15 +20,20 @@ nav_order: 3
 
 .repo-card {
   flex: 1 1 calc(50% - 1em);
-  border: 1.5px solid #aaa;  /* Light-medium gray */
-  border-radius: 0;             /* No rounding */
+  border: 1px solid #bbb;
+  border-radius: 0;
   padding: 0.5em 1em;
-  height: 220px;                /* Rectangular shape */
+  height: 220px;
   background-color: #fdfdfd;
   text-align: center;
   box-sizing: border-box;
   max-width: calc(50% - 1em);
   overflow: hidden;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.repo-card:hover {
+  border-color: var(--link-hover-color);
 }
 
 .repo-card img {
@@ -40,6 +49,7 @@ nav_order: 3
   font-size: 1.1em;
 }
 </style>
+
 
 
 
