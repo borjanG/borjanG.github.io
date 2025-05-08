@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /projects/
-title: projects
+permalink: /code/
+title: code
 nav: true
 nav_order: 3
 ---
@@ -38,6 +38,20 @@ nav_order: 3
 
 <div class="repo-grid">
 
+   <div class="repo-card">
+    <a href="https://github.com/KimiSun18/2024-gauss-kde-attention">
+      <h3 title="borjanG/2023-transformers-rotf">Number of modes of Gaussian KDEs</h3>
+    </a>
+    <img src="/assets/imgs/5.gif" alt="transformers-rotf preview">
+  </div>
+
+  <div class="repo-card">
+    <a href="https://github.com/HugoKoubbi/2024-transformers-dotm">
+      <h3 title="borjanG/2023-transformers-rotf">Dynamic metastability in the self-attention model</h3>
+    </a>
+    <img src="/assets/imgs/in-rainbows.png" alt="transformers-rotf preview">
+  </div>
+
   <div class="repo-card">
     <a href="https://github.com/borjanG/2023-transformers-rotf">
       <h3 title="borjanG/2023-transformers-rotf">A mathematical perspective on Transformers</h3>
@@ -54,7 +68,7 @@ nav_order: 3
 
   <div class="repo-card">
     <a href="https://github.com/borjanG/leia">
-      <h3 title="borjanG/leia">Optimal control and neural ODEs</h3>
+      <h3 title="borjanG/leia">Neural ODEs</h3>
     </a>
     <img src="/assets/imgs/4.gif" alt="dynamical systems">
   </div>
