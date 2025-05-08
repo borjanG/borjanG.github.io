@@ -16,11 +16,10 @@ nav_order: 3
 
 .repo-card {
   flex: 1 1 calc(50% - 1em);
-  border: 2px solid #555;        /* Stronger border */
-  border-radius: 0;              /* Remove rounding */
+  border: 2px solid #555;       /* Stronger border */
+  border-radius: 0;             /* No rounding */
   padding: 0.5em 1em;
-  height: 220px;
-  box-shadow: none;              /* Optional: remove shadow for a flat look */
+  height: 220px;                /* Rectangular shape */
   background-color: #fdfdfd;
   text-align: center;
   box-sizing: border-box;
@@ -29,11 +28,11 @@ nav_order: 3
 }
 
 .repo-card img {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100px;            /* Smaller image height */
+  object-fit: contain;
   margin-bottom: 0.5em;
-  border-radius: 0;              /* Remove image rounding */
+  border-radius: 0;             /* No image rounding */
 }
 
 .repo-card h3 {
@@ -41,6 +40,7 @@ nav_order: 3
   font-size: 1.1em;
 }
 </style>
+
 
 
 <div class="repo-grid">
