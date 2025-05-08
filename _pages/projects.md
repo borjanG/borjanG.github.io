@@ -108,4 +108,13 @@ nav_order: 3
     <img src="{{ '/assets/img/3.gif' |relative_url }}" alt="Stefan problem preview">
   </div>
 
+  <div class="repo-card">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2021-optimal-controller/">
+        optimal actuators via Brunovsky's normal form
+      </a>
+    </h3>
+    <img src="{{ '/assets/img/controller.png' |relative_url }}" alt="brunovsky">
+  </div>
+
 </div>
