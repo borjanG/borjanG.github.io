@@ -38,47 +38,67 @@ nav_order: 3
 
 <div class="repo-grid">
 
-   <div class="repo-card">
-    <a href="https://github.com/KimiSun18/2024-gauss-kde-attention">
-      <h3 title="borjanG/2023-transformers-rotf">Number of modes of Gaussian KDEs</h3>
-    </a>
-    <img src="/assets/imgs/5.gif" alt="transformers-rotf preview">
+  <div class="repo-card">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2025-transformers-frank-wolfe">
+        are Transformers Frank-Wolfe in disguise?
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/cells.png' | relative_url }}" alt="transformers frank-wolfe preview">
   </div>
 
   <div class="repo-card">
-    <a href="https://github.com/HugoKoubbi/2024-transformers-dotm">
-      <h3 title="borjanG/2023-transformers-rotf">Dynamic metastability in the self-attention model</h3>
-    </a>
-    <img src="/assets/imgs/in-rainbows.png" alt="transformers-rotf preview">
+    <h3>
+      <a class="publink" href="https://github.com/KimiSun18/2024-gauss-kde-attention">
+        number of modes of Gaussian KDEs
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/5.gif' | relative_url }}" alt="gaussian KDE preview">
   </div>
 
   <div class="repo-card">
-    <a href="https://github.com/borjanG/2023-transformers-rotf">
-      <h3 title="borjanG/2023-transformers-rotf">A mathematical perspective on Transformers</h3>
-    </a>
-    <img src="/assets/imgs/1.gif" alt="transformers-rotf preview">
+    <h3>
+      <a class="publink" href="https://github.com/HugoKoubbi/2024-transformers-dotm">
+        dynamic metastability in the self-attention model
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/in-rainbows.png' | relative_url }}" alt="transformers metastability preview">
   </div>
 
   <div class="repo-card">
-    <a href="https://github.com/borjanG/2023-transformers">
-      <h3 title="borjanG/2023-transformers">Emergence of clusters in self-attention dynamics</h3>
-    </a>
-    <img src="/assets/imgs/2.gif" alt="transformers preview">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2023-transformers-rotf">
+        a mathematical perspective on Transformers
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/1.gif' | relative_url }}" alt="transformers ROTF preview">
   </div>
 
   <div class="repo-card">
-    <a href="https://github.com/borjanG/leia">
-      <h3 title="borjanG/leia">Neural ODEs</h3>
-    </a>
-    <img src="/assets/imgs/4.gif" alt="dynamical systems">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2023-transformers">
+        emergence of clusters in self-attention dynamics
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/2.gif' | relative_url }}" alt="self-attention clusters preview">
   </div>
 
   <div class="repo-card">
-    <a href="https://github.com/borjanG/2022-stefan-control">
-      <h3 title="borjanG/2022-stefan-control">Control of the Stefan problem</h3>
-    </a>
-    <img src="/assets/imgs/3.gif" alt="stefan control">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/leia">
+        neural ODEs
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/4.gif' | relative_url }}" alt="neural ODEs preview">
   </div>
 
+  <div class="repo-card">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2022-stefan-control">
+        control of the Stefan problem
+      </a>
+    </h3>
+    <img src="{{ '/assets/imgs/3.gif' |relative_url }}" alt="Stefan problem preview">
+  </div>
 
 </div>
