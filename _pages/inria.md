@@ -20,7 +20,7 @@ You can subscribe to the mailing list <a href="https://sympa.inria.fr/sympa/subs
   <tr><td><em>02.06.</em></td><td>Scott Armstrong</td><td>(LJLL & Courant Institute)</td></tr>
   <tr><td><em>26.05.</em></td><td>Matt Rosenzweig</td><td>(Carnegie Mellon)</td></tr>
   <tr><td><em>19.05.</em></td><td>Tony Lelièvre</td><td>(Ecole des Ponts)</td></tr>
-  <tr><td><em>14.04.</em></td><td>Marylou Gabrié</td><td>(ENS)</td></tr>
+  <!-- <tr><td><em>14.04.</em></td><td>Marylou Gabrié</td><td>(ENS)</td></tr> -->
   <tr><td><em>25.03.</em></td><td>Andrea Agazzi</td><td>(Bern)</td></tr>
   <tr><td><em>03.03.</em></td><td>Flavien Léger</td><td>(Inria)</td></tr>
   <tr><td><em>17.02.</em></td><td>Jaouad Mourtada</td><td>(ENSAE)</td></tr>
