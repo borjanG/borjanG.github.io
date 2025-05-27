@@ -57,15 +57,6 @@ nav_order: 3
 
   <div class="repo-card">
     <h3>
-      <a class="publink" href="https://github.com/borjanG/2025-transformers-frank-wolfe">
-        coming soon. -B
-      </a>
-    </h3>
-    <img src="{{ '/assets/img/cells.png' | relative_url }}" alt="transformers frank-wolfe preview">
-  </div>
-
-  <div class="repo-card">
-    <h3>
       <a class="publink" href="https://github.com/KimiSun18/2024-gauss-kde-attention">
         number of modes of Gaussian KDEs
       </a>
