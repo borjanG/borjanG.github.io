@@ -16,6 +16,7 @@ nav_order: 2
     with Albert Alcalde and Domènec Ruiz-Balet<br>
     preprint<br>
     2025<br>
+    <a class="github" href="https://github.com/borjanG/2025-transformers-frank-wolfe"><code>github</code></a><br>
     <br>
   </li>
  
