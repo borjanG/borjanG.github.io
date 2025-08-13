@@ -23,7 +23,7 @@ nav_order: 2
    <li>
     <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    preprint<br>
+    Applied Mathematics and Optimization<br>
     2024<br>
     <br>
   </li>
