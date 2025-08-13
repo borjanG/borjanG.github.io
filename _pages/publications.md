@@ -10,6 +10,14 @@ nav_order: 2
 
 
 <ol reversed>
+
+  <li>
+    <a class="publink" href="">Attention's forward pass and Frank-Wolfe</a><br>
+    with Albert Alcalde and Domènec Ruiz-Balet<br>
+    preprint<br>
+    2025<br>
+    <br>
+  </li>
  
    <li>
     <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>

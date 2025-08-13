@@ -57,6 +57,15 @@ nav_order: 3
 
   <div class="repo-card">
     <h3>
+      <a class="publink" href="https://github.com/borjanG/2025-transformers-frank-wolfe">
+        attention's forward pass and Frank-Wolfe
+      </a>
+    </h3>
+    <img src="{{ '/assets/img/cells.gif' | relative_url }}" alt="fw preview">
+  </div>
+
+  <div class="repo-card">
+    <h3>
       <a class="publink" href="https://github.com/KimiSun18/2024-gauss-kde-attention">
         number of modes of Gaussian KDEs
       </a>
