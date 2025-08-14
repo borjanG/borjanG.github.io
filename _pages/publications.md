@@ -12,7 +12,7 @@ nav_order: 2
 <ol reversed>
 
   <li>
-    <a class="publink" href="">Attention's forward pass and Frank-Wolfe</a><br>
+    <a class="publink" href="https://arxiv.org/abs/2508.09628">Attention's forward pass and Frank-Wolfe</a><br>
     with Albert Alcalde and Domènec Ruiz-Balet<br>
     preprint<br>
     2025<br>
