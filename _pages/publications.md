@@ -23,7 +23,7 @@ nav_order: 2
    <li>
     <a class="publink" href="https://arxiv.org/abs/2412.19366">Constructive approximate transport maps with normalizing flows</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    Applied Mathematics and Optimization<br>
+    <em>Applied Mathematics and Optimization</em><br>
     2025<br>
     <br>
   </li>
@@ -57,7 +57,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2312.10794">A mathematical perspective on Transformers</a><br>
     with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet<br>
-    Bulletin of the American Mathematical Society<br>
+    <em>Bulletin of the American Mathematical Society</em><br>
     2024<br>
     <a class="github" href="https://github.com/borjanG/2023-transformers-rotf"><code>github</code></a><br>
     <br>
@@ -66,7 +66,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2305.05465">The emergence of clusters in self-attention dynamics</a><br>
     with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet<br>
-    NeurIPS<br>
+    <em>Advances in Neural Information Processing Systems</em><br>
     2024<br>
     <a class="github" href="https://github.com/borjanG/2023-transformers"><code>github</code></a><br>
     <br>
@@ -75,7 +75,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2203.03012">Control of the Stefan problem in a periodic box</a><br>
     with Debayan Maity<br>
-    Mathematical Models and Methods in Applied Sciences<br>
+    <em>Mathematical Models and Methods in Applied Sciences</em><br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/2022-stefan-control"><code>github</code></a><br> 
     <br>
@@ -85,7 +85,7 @@ nav_order: 2
   <li>
     <a class="publink" href="/assets/pdf/acta-numerica.pdf">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
     with Enrique Zuazua<br>
-    Acta Numerica<br>
+    <em>Acta Numerica</em><br>
     2022<br>
     <a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets"><code>github</code></a><br>
     <br>
@@ -94,7 +94,7 @@ nav_order: 2
    <li>
     <a class="publink" href="https://arxiv.org/abs/2108.05629">Optimal controller design via Brunovsky's normal form</a><br>
     with Enrique Zuazua<br>
-    IEEE Transactions on Automatic Control<br>
+    <em>IEEE Transactions on Automatic Control</em><br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/optimal.controller"><code>github</code></a><br>
     <br>
@@ -103,7 +103,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2102.13566">Sparsity in long-time control of neural ODEs</a><br>
     with Carlos Esteve-Yagüe<br>
-    Systems & Control Letters<br>
+    <em>Systems & Control Letters</em><br>
     2023<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</code></a><br>
     <br>
@@ -112,7 +112,7 @@ nav_order: 2
   <li>
     <a class="publink" href="http://arxiv.org/abs/2011.11091">Turnpike in Lipschitz-nonlinear optimal control</a><br> 
     with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
-    Nonlinearity<br>
+    <em>Nonlinearity</em><br>
     2022<br>
     <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</code></a><br>
     <br>
@@ -130,14 +130,14 @@ nav_order: 2
   <li>
     <a class="publink" href="https://hal.science/hal-02277740/">Controllability of one-dimensional viscous free boundary flows</a><br> 
     with Enrique Zuazua<br>
-    SIAM Journal on Control and Optimization<br>
+    <em>SIAM Journal on Control and Optimization</em><br>
     2021<br>
     <br>
   </li>
 
   <li>
     <a class="publink" href="https://hal.archives-ouvertes.fr/hal-02280993/">Null-controllability of perturbed porous medium gas flow</a><br>
-    ESAIM Control, Optimisation and Calculus of Variations<br>
+    <em>ESAIM Control, Optimisation and Calculus of Variations</em><br>
     2020<br>
     <br>
   </li>
