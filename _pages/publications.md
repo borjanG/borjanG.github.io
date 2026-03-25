@@ -55,8 +55,8 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2412.09080">On the number of modes of Gaussian kernel density estimators</a><br> 
     with Philippe Rigollet and Yihang Sun<br>
-    <em>accepted in Bernoulli</em><br>
-    2024<br>
+    <em>Bernoulli</em><br>
+    2026<br>
     <a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention"><code>github</code></a><br>
     <br>
   </li>
@@ -64,8 +64,8 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2411.04551">Measure-to-measure interpolation using Transformers</a><br>
     with Philippe Rigollet and Domènec Ruiz-Balet<br>
-    <em>accepted in Foundations of Computational Mathematics</em><br>
-    2024<br>
+    <em>Foundations of Computational Mathematics</em><br>
+    2026<br>
     <br>
   </li>
 

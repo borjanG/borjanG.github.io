@@ -25,7 +25,7 @@ I work in applied mathematics. My interests gravitate around problems arising in
 <div style="display: flex; flex-direction: column;">
   <div><span style="font-family: cursive;">news</span></div>
   <div style="margin-left: 2em;">
-    <em>March 2026.</em> I was interviewed for Epsiloon magazine, see <a href="https://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html">here</a>.
+    <em>March 2026.</em> I was interviewed for <a href="https://www.epsiloon.com">Epsiloon</a> magazine, see <a href="https://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html"><code>here</code></a></a>.
     <br>
     <em>April 2025.</em> I gave a talk in
     <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a>, at the Institut Henri Poincaré, on the « Mathematics of ChatGPT ». You can watch it <a href="https://www.carmin.tv/fr/collections/seminaire-mathematic-park/video/les-mathematiques-derriere-chatgpt" target="_blank"><code>here</code></a>. <br><br>
