@@ -105,7 +105,6 @@ nav_order: 2
     <br>
   </li>
 
-  
   <li>
     <a class="publink" href="/assets/pdf/acta-numerica.pdf">Turnpike in optimal control of PDEs, ResNets, and beyond</a><br>
     with Enrique Zuazua<br>
@@ -143,15 +142,6 @@ nav_order: 2
   </li>
 
   <li>
-    <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep learning</a><br>
-    with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
-    preprint<br>
-    2021<br>
-    <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</code></a><br>
-    <br>
-  </li>
-
-  <li>
     <a class="publink" href="https://hal.science/hal-02277740/">Controllability of one-dimensional viscous free boundary flows</a><br> 
     with Enrique Zuazua<br>
     <em>SIAM Journal on Control and Optimization</em><br>
@@ -167,6 +157,20 @@ nav_order: 2
   </li>
 </ol>
 
+<span style="font-size: 3em;">misc</span>
+
+<ol reversed>
+  <li>
+  <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep 
+learning</a><br>
+  with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
+  unsubmitted arXiv preprint<br>
+  2021<br>
+  <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</
+code></a><br>
+  <br>
+</li>
+</ol>
 
 <span style="font-size: 3em;">theses</span>
 

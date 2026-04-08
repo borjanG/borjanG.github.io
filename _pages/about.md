@@ -25,7 +25,7 @@ I work in applied mathematics. My interests gravitate around problems arising in
 <div style="display: flex; flex-direction: column;">
   <div><span style="font-family: cursive;">news</span></div>
   <div style="margin-left: 2em;">
-    <em>March 2026.</em> I was interviewed for <a href="https://www.epsiloon.com">Epsiloon</a> magazine, see 
+    <em>March 2026.</em> I was interviewed for <a href="https://www.epsiloon.com">Epsiloon</a>, see 
     <a href="https://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html"><code>here</code></a>.
     <br>
     <em>April 2025.</em> I gave a talk in
