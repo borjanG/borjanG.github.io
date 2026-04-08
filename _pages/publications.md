@@ -159,7 +159,7 @@ nav_order: 2
 
 <span style="font-size: 3em;">misc</span>
 
-<ol reversed>
+<ul>
   <li>
   <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep 
 learning</a><br>
@@ -169,8 +169,10 @@ learning</a><br>
   <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</
 code></a><br>
   <br>
-</li>
-</ol>
+  </li>
+</ul>
+
+
 
 <span style="font-size: 3em;">theses</span>
 
