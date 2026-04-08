@@ -166,8 +166,6 @@ learning</a><br>
   with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
   unsubmitted arXiv preprint<br>
   2021<br>
-  <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</
-code></a><br>
   <br>
   </li>
 </ul>
