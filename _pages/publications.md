@@ -12,7 +12,7 @@ nav_order: 2
 <ol reversed>
 
   <li>
-    <a class="publink" href="">Kinetic theory for Transformers and the lost-in-the-middle phenomenon<><br>
+    <a class="publink" href="">Kinetic theory for Transformers and the lost-in-the-middle phenomenon</a><br>
     with Mitia Duerinckx and Stefano Rossi<br>
     preprint<br>
     2026<br>
