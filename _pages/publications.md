@@ -12,6 +12,14 @@ nav_order: 2
 <ol reversed>
 
   <li>
+    <a class="publink" href="">Kinetic theory for Transformers and the lost-in-the-middle phenomenon<><br>
+    with Mitia Duerinckx and Stefano Rossi<br>
+    preprint<br>
+    2026<br>
+    <br>
+  </li>
+
+  <li>
     <a class="publink" href="">Homogenized Transformers</a><br>
     with Hugo Koubbi and Philippe Rigollet<br>
     preprint<br>
@@ -30,7 +38,7 @@ nav_order: 2
   <li>
     <a class="publink" href="">Perceptrons and Localization of Attention’s Mean-Field Landscape</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    preprint<br>
+    International Conference on Machine Learning<br>
     2026<br>
     <br>
   </li>
@@ -38,8 +46,8 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2508.09628">Attention's forward pass and Frank-Wolfe</a><br>
     with Albert Alcalde and Domènec Ruiz-Balet<br>
-    preprint<br>
-    2025<br>
+    International Conference on Machine Learning<br>
+    2026<br>
     <a class="github" href="https://github.com/borjanG/2025-transformers-frank-wolfe"><code>github</code></a><br>
     <br>
   </li>

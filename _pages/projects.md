@@ -56,6 +56,15 @@ nav_order: 3
 <div class="repo-grid">
 
   <div class="repo-card">
+  <h3>
+    <a class="publink" href="https://github.com/borjanG/2026-lost-in-the-middle">
+      lost in the middle
+    </a>
+  </h3>
+  <img src="{{ '/assets/img/litm.jpg' | relative_url }}" alt="fw preview">
+</div>
+
+  <div class="repo-card">
     <h3>
       <a class="publink" href="https://github.com/borjanG/2025-transformers-frank-wolfe">
         attention's forward pass and Frank-Wolfe
