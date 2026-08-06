@@ -20,7 +20,7 @@ I am a researcher at Inria Paris, hosted by the Laboratoire Jacques-Louis Lions 
 I was previously a postdoc at MIT under <a class="publink" href="https://math.mit.edu/~rigollet/">Philippe Rigollet</a> and <a class="publink" href="https://math.mit.edu/icg/">Laurent Demanet</a>.
 I got my PhD from la Autónoma de Madrid in 2021. My advisor was Enrique Zuazua. 
 
-I work in applied mathematics. My interests gravitate around problems arising in machine learning. 
+My research focuses on rigorously understanding the working mechanisms of large language models.
 
 <div style="display: flex; flex-direction: column;">
   <div><span style="font-family: cursive;">news</span></div>
