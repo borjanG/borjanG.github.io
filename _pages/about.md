@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 
 I am a researcher at Inria Paris, hosted by the Laboratoire Jacques-Louis Lions at Sorbonne Université.
 
-I was previously a postdoc at MIT under <a class="publink" href="https://math.mit.edu/~rigollet/">Philippe Rigollet</a> and <a class="publink" href="https://math.mit.edu/icg/">Laurent Demanet</a>.
+I was previously a postdoc at MIT under Philippe Rigollet and Laurent Demanet.
 I got my PhD from la Autónoma de Madrid in 2021. My advisor was Enrique Zuazua. 
 
 My research focuses on rigorously understanding the working mechanisms of large language models.
@@ -28,8 +28,8 @@ My research focuses on rigorously understanding the working mechanisms of large 
     <em>March 2026.</em> I was interviewed for <a href="https://www.epsiloon.com">Epsiloon</a>, see 
     <a href="https://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html"><code>here</code></a>.
     <br>
-    <em>April 2025.</em> I gave a talk in
-    <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a>, at the Institut Henri Poincaré, on the « Mathematics of ChatGPT ». You can watch it <a href="https://www.carmin.tv/fr/collections/seminaire-mathematic-park/video/les-mathematiques-derriere-chatgpt" target="_blank"><code>here</code></a>. <br><br>
+    <em>April 2025.</em> I gave a talk in Mathematic Park on the
+    <a class="publink" href="https://www.carmin.tv/fr/collections/seminaire-mathematic-park/video/les-mathematiques-derriere-chatgpt" target="_blank">Mathematics of ChatGPT</a>. <br><br>
   </div>
 </div>
 
