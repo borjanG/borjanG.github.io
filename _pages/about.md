@@ -6,7 +6,9 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 5859425016817061942.jpg
+  image_hover: 5859425016817061941.jpg
+  image_alt: Borjan Geshkovski
   image_circular: false # crops the image to make it circular
   more_info: 
 
