@@ -22,7 +22,7 @@ _styles: |
   }
 ---
 
-currently i'm supervising the phd thesis of the amazing [Hugo Koubbi](https://hugokoubbi.github.io/). feel free to reach out if you want to join us!
+currently i'm supervising the phd thesis of the amazing [Hugo Koubbi](https://hugokoubbi.github.io/). i frequently have funding for phds/postdocs so feel free to reach out if you want to join us! to have an idea of the working conditions, see below.
 
 <div class="jobs-photos">
   {%
