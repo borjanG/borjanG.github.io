@@ -16,6 +16,7 @@ nav_order: 2
     with Bruno Després<br>
     preprint<br>
     2026<br>
+    <a class="github" href="https://borjang.github.io/2026-lloyd-transport/"><code>interactive paper</code></a>
     <a class="github" href="https://github.com/borjanG/2026-lloyd-transport"><code>github</code></a><br>
     <br>
   </li>
