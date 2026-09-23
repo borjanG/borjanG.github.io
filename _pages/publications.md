@@ -48,7 +48,7 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2601.21366">Perceptrons and Localization of Attention’s Mean-Field Landscape</a><br>
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
-    <em>International Conference on Machine Learning</em><br>
+    <em>International Conference on Machine Learning</em> (Spotlight)<br>
     2026<br>
     <br>
   </li>
