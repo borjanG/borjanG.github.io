@@ -83,7 +83,7 @@ nav_order: 3
   <div class="repo-card repo-card--animated">
     <h3>
       <a class="publink" href="https://github.com/borjanG/2026-lloyd-transport">
-        A Lloyd-stabilized Voronoï particle method
+        a Lloyd-stabilized Voronoï particle method
       </a>
     </h3>
     <div class="repo-card-preview">

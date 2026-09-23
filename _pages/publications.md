@@ -12,6 +12,15 @@ nav_order: 2
 <ol reversed>
 
   <li>
+    <a class="publink" href="">A Lloyd-stabilized Voronoï particle method</a><br>
+    with Bruno Després<br>
+    preprint<br>
+    2026<br>
+    <a class="github" href="https://github.com/borjanG/2026-lloyd-transport"><code>github</code></a><br>
+    <br>
+  </li>
+
+  <li>
     <a class="publink" href="https://arxiv.org/abs/2605.09213">Kinetic theory for Transformers and the lost-in-the-middle phenomenon</a><br>
     with Mitia Duerinckx and Stefano Rossi<br>
     preprint<br>
@@ -198,5 +207,4 @@ learning</a><br>
     2018<br><br>
   </li>
 </ul>
-
 
