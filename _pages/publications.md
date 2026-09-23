@@ -160,6 +160,14 @@ nav_order: 2
   </li>
 
   <li>
+    <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep learning</a><br>
+    with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
+    unsubmitted arXiv preprint<br>
+    2021<br>
+    <br>
+  </li>
+
+  <li>
     <a class="publink" href="https://hal.science/hal-02277740/">Controllability of one-dimensional viscous free boundary flows</a><br> 
     with Enrique Zuazua<br>
     <em>SIAM Journal on Control and Optimization</em><br>
@@ -174,21 +182,6 @@ nav_order: 2
     <br>
   </li>
 </ol>
-
-<span style="font-size: 3em;">misc</span>
-
-<ul>
-  <li>
-  <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep 
-learning</a><br>
-  with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
-  unsubmitted arXiv preprint<br>
-  2021<br>
-  <br>
-  </li>
-</ul>
-
-
 
 <span style="font-size: 3em;">theses</span>
 
