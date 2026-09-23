@@ -48,12 +48,48 @@ nav_order: 3
   margin: 0.5em 0;
   font-size: 1.1em;
 }
+
+.repo-card--animated {
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-card-preview {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.repo-card-preview img {
+  max-height: min(130px, 100%);
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .repo-card {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
 </style>
 
 
 
 
 <div class="repo-grid">
+
+  <div class="repo-card repo-card--animated">
+    <h3>
+      <a class="publink" href="https://github.com/borjanG/2026-lloyd-transport">
+        A Lloyd-stabilized Voronoï particle method
+      </a>
+    </h3>
+    <div class="repo-card-preview">
+      <img src="{{ '/assets/img/lloyd-transport-stabilized.gif' | relative_url }}" alt="Evolution of the Lloyd-stabilized Voronoï mesh from t = 0 to t = 1" width="130" height="130">
+    </div>
+  </div>
 
   <div class="repo-card">
   <h3>
