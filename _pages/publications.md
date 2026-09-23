@@ -25,6 +25,7 @@ nav_order: 2
     with Mitia Duerinckx and Stefano Rossi<br>
     preprint<br>
     2026<br>
+    <a class="github" href="https://github.com/borjanG/2026-lost-in-the-middle"><code>github</code></a><br>
     <br>
   </li>
 
