@@ -16,8 +16,8 @@ nav_order: 2
     with Bruno Després<br>
     preprint<br>
     2026<br>
-    <a class="github" href="https://borjang.github.io/2026-lloyd-transport/"><code>interactive paper</code></a>
-    <a class="github" href="https://github.com/borjanG/2026-lloyd-transport"><code>github</code></a><br>
+    <a class="paper-link paper-link--interactive" href="https://borjang.github.io/2026-lloyd-transport/">interactive paper</a>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2026-lloyd-transport">github</a><br>
     <br>
   </li>
 
@@ -26,7 +26,7 @@ nav_order: 2
     with Mitia Duerinckx and Stefano Rossi<br>
     preprint<br>
     2026<br>
-    <a class="github" href="https://github.com/borjanG/2026-lost-in-the-middle"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2026-lost-in-the-middle">github</a><br>
     <br>
   </li>
 
@@ -59,7 +59,7 @@ nav_order: 2
     with Albert Alcalde and Domènec Ruiz-Balet<br>
     <em>International Conference on Machine Learning</em><br>
     2026<br>
-    <a class="github" href="https://github.com/borjanG/2025-transformers-frank-wolfe"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2025-transformers-frank-wolfe">github</a><br>
     <br>
   </li>
  
@@ -76,7 +76,7 @@ nav_order: 2
     with Philippe Rigollet and Yihang Sun<br>
     <em>Bernoulli</em><br>
     2026<br>
-    <a class="github" href="https://github.com/KimiSun18/2024-gauss-kde-attention"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/KimiSun18/2024-gauss-kde-attention">github</a><br>
     <br>
   </li>
 
@@ -93,7 +93,7 @@ nav_order: 2
     with Hugo Koubbi, Yury Polyanskiy and Philippe Rigollet<br>
     preprint<br>
     2024<br>
-    <a class="github" href="https://github.com/HugoKoubbi/2024-transformers-dotm"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/HugoKoubbi/2024-transformers-dotm">github</a><br>
     <br>
   </li>
 
@@ -102,7 +102,7 @@ nav_order: 2
     with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet<br>
     <em>Bulletin of the American Mathematical Society</em><br>
     2024<br>
-    <a class="github" href="https://github.com/borjanG/2023-transformers-rotf"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2023-transformers-rotf">github</a><br>
     <br>
   </li>
 
@@ -111,7 +111,7 @@ nav_order: 2
     with Cyril Letrouit, Yury Polyanskiy and Philippe Rigollet<br>
     <em>Advances in Neural Information Processing Systems</em><br>
     2024<br>
-    <a class="github" href="https://github.com/borjanG/2023-transformers"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2023-transformers">github</a><br>
     <br>
   </li>
 
@@ -120,7 +120,7 @@ nav_order: 2
     with Debayan Maity<br>
     <em>Mathematical Models and Methods in Applied Sciences</em><br>
     2023<br>
-    <a class="github" href="https://github.com/borjanG/2022-stefan-control"><code>github</code></a><br> 
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2022-stefan-control">github</a><br>
     <br>
   </li>
 
@@ -129,7 +129,7 @@ nav_order: 2
     with Enrique Zuazua<br>
     <em>Acta Numerica</em><br>
     2022<br>
-    <a class="github" href="https://github.com/borjanG/2022-turnpike-pde-resnets"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/2022-turnpike-pde-resnets">github</a><br>
     <br>
   </li>
 
@@ -138,7 +138,7 @@ nav_order: 2
     with Enrique Zuazua<br>
     <em>IEEE Transactions on Automatic Control</em><br>
     2023<br>
-    <a class="github" href="https://github.com/borjanG/optimal.controller"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/optimal.controller">github</a><br>
     <br>
   </li>
 
@@ -147,7 +147,7 @@ nav_order: 2
     with Carlos Esteve-Yagüe<br>
     <em>Systems & Control Letters</em><br>
     2023<br>
-    <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/dynamical.systems">github</a><br>
     <br>
   </li>
 
@@ -156,7 +156,7 @@ nav_order: 2
     with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
     <em>Nonlinearity</em><br>
     2022<br>
-    <a class="github" href="https://github.com/borjanG/dynamical.systems"><code>github</code></a><br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/dynamical.systems">github</a><br>
     <br>
   </li>
 

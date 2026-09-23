@@ -1,0 +1,56 @@
+/* Compact resource links beneath publication entries. */
+a.paper-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 1.75em;
+  padding: 0 0.45em;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  background: transparent;
+  color: var(--paper-link-color);
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  text-underline-offset: 0.14em;
+}
+
+a.paper-link + .paper-link {
+  margin-inline-start: 0.35rem;
+}
+
+a.paper-link:visited,
+a.paper-link:hover,
+a.paper-link:focus-visible {
+  color: var(--paper-link-color);
+}
+
+a.paper-link:hover,
+a.paper-link:focus-visible {
+  text-decoration: underline;
+}
+
+a.paper-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.paper-link--github {
+  --paper-link-color: #7c3aad;
+}
+
+.paper-link--interactive {
+  --paper-link-color: #247442;
+}
+
+html[data-theme="dark"] .paper-link--github {
+  --paper-link-color: #c59af5;
+}
+
+html[data-theme="dark"] .paper-link--interactive {
+  --paper-link-color: #81c995;
+}
