@@ -47,10 +47,18 @@ a.paper-link:focus-visible {
   --paper-link-color: #247442;
 }
 
+.paper-link--spotlight {
+  --paper-link-color: #946c00;
+}
+
 html[data-theme="dark"] .paper-link--github {
   --paper-link-color: #c59af5;
 }
 
 html[data-theme="dark"] .paper-link--interactive {
   --paper-link-color: #81c995;
+}
+
+html[data-theme="dark"] .paper-link--spotlight {
+  --paper-link-color: #e5bf55;
 }
