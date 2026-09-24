@@ -12,7 +12,7 @@ nav_order: 2
 <ol reversed>
 
   <li>
-    <a class="publink" href="">A Lloyd-stabilized Voronoï particle method</a><br>
+    <a class="publink" href="https://arxiv.org/abs/2609.28135">A Lloyd-stabilized Voronoï particle method</a><br>
     with Bruno Després<br>
     preprint<br>
     2026<br>
