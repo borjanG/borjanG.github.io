@@ -165,8 +165,9 @@ nav_order: 2
   <li>
     <a class="publink" href="https://arxiv.org/abs/2008.02491">Large-time asymptotics in deep learning</a><br>
     with Carlos Esteve-Yagüe, Dario Pighin and Enrique Zuazua<br>
-    unsubmitted arXiv preprint<br>
+    unsubmitted preprint<br>
     2021<br>
+    <a class="paper-link paper-link--github" href="https://github.com/borjanG/dynamical.systems">github</a><br>
     <br>
   </li>
 
