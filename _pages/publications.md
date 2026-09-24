@@ -51,6 +51,7 @@ nav_order: 2
     with Antonio Alvarez-Lopez and Domènec Ruiz-Balet<br>
     <em>International Conference on Machine Learning</em><br>
     2026<br>
+    <a class="paper-link paper-link--github" href="https://github.com/antonioalvarezl/2026-MLP-Attention-Energy">github</a>
     <a class="paper-link paper-link--spotlight" href="https://icml.cc/virtual/2026/events/2026SpotlightPosters">spotlight</a><br>
     <br>
   </li>
