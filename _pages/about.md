@@ -25,27 +25,12 @@ I got my PhD from la Autónoma de Madrid in 2021. My advisor was Enrique Zuazua.
 My research focuses on rigorously understanding the working mechanisms of large language models.
 
 <div style="display: flex; flex-direction: column;">
-  <div><span style="font-family: cursive;">news</span></div>
-  <div style="margin-left: 2em;">
-    <em>March 2026.</em> I was interviewed for
-    <a href="https://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html">Epsiloon</a>.
-    <br>
-    <em>April 2025.</em> I gave a talk in
-    <a class="publink" href="https://www.ihp.fr/fr/mathematic-park">Mathematic Park</a> on the
-    <a class="publink" href="https://www.carmin.tv/fr/collections/seminaire-mathematic-park/video/les-mathematiques-derriere-chatgpt" target="_blank">Mathematics of ChatGPT</a>. <br><br>
-  </div>
-</div>
-
-
-
-
-<div style="display: flex; flex-direction: column;">
   <div><span style="font-family: cursive;">contact</span></div>
   <div style="margin-left: 2em;">
     Office 15-25 320<br>
     Laboratoire Jacques-Louis Lions<br>
     4 Place Jussieu, 75005 Paris<br>
-    <code>email</code>: borjan dot geshkovski at inria dot fr
+    email: borjan dot geshkovski at inria dot fr
   </div>
 </div>
 
